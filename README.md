@@ -1,0 +1,1 @@
+This website was made using the <a href="https://gohugo.io">Hugo</a> templating engine and the <a href="https://wowchemy.com/?utm_campaign=poweredby">Wowchemy</a> <a href="https://github.com/wowchemy/starter-hugo-academic">academic template</a>. To customize it I overwrote <a href="https://github.com/wowchemy/wowchemy-hugo-modules">wowchemy-hugo-modules</a>.
