@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wellbeing | Natasha Jaques</title>
+    <link>/tag/wellbeing/</link>
+      <atom:link href="/tag/wellbeing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wellbeing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Wellbeing</title>
+      <link>/tag/wellbeing/</link>
+    </image>
+    
+    <item>
+      <title>BITxBIT: Encouraging Behavior Change with N=2 Experiments</title>
+      <link>/publication/bitxbit-encouraging-behavior-change-with-n2-experiments/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/bitxbit-encouraging-behavior-change-with-n2-experiments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning of Sleep and Wake Behaviors to Classify Self-Reported Evening Mood</title>
+      <link>/publication/machine-learning-of-sleep-and-wake-behaviors-to-classify-selfreported-/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/machine-learning-of-sleep-and-wake-behaviors-to-classify-selfreported-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-task Learning for Predicting Health, Stress, and Happiness</title>
+      <link>/publication/multitask-learning-for-predicting-health-stress-and-happiness/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/multitask-learning-for-predicting-health-stress-and-happiness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Engaging the workplace with challenges</title>
+      <link>/publication/engaging-the-workplace-with-challenges/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/engaging-the-workplace-with-challenges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-task Multi-Kernel Learning for Estimating Individual Wellbeing</title>
+      <link>/publication/multitask-multikernel-learning-for-estimating-individual-wellbeing/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/multitask-multikernel-learning-for-estimating-individual-wellbeing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmileTracker: Automatically and Unobtrusively Recording Smiles and their Context.</title>
+      <link>/publication/smiletracker-automatically-and-unobtrusively-recording-smiles-and-thei/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/smiletracker-automatically-and-unobtrusively-recording-smiles-and-thei/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
