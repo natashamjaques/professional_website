@@ -5,12 +5,20 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Explore and Control with Adversarial Surprise</title>
+      <link>/publication/explore-and-control-with-adversarial-surprise/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/explore-and-control-with-adversarial-surprise/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning Social Learning</title>
@@ -33,14 +41,6 @@
       <link>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Explore and Control with Adversarial Surprise</title>
-      <link>/publication/explore-and-control-with-adversarial-surprise/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/explore-and-control-with-adversarial-surprise/</guid>
       <description></description>
     </item>
     
@@ -113,14 +113,6 @@
       <link>/publication/tackling-climate-change-with-machine-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/tackling-climate-change-with-machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Way Off-Policy Batch Deep Reinforcement Learning of Implicit Human Preferences in Dialog</title>
-      <link>/publication/way-offpolicy-batch-deep-reinforcement-learning-of-implicit-human-pref/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/way-offpolicy-batch-deep-reinforcement-learning-of-implicit-human-pref/</guid>
       <description></description>
     </item>
     

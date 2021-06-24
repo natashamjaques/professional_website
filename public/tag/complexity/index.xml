@@ -5,7 +5,7 @@
     <link>/tag/complexity/</link>
       <atom:link href="/tag/complexity/index.xml" rel="self" type="application/rss+xml" />
     <description>Complexity</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Complexity</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Adversarial Environment Generation for Learning to Navigate the Web</title>
-      <link>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</guid>
+      <title>Explore and Control with Adversarial Surprise</title>
+      <link>/publication/explore-and-control-with-adversarial-surprise/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/explore-and-control-with-adversarial-surprise/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Explore and Control with Adversarial Surprise</title>
-      <link>/publication/explore-and-control-with-adversarial-surprise/</link>
+      <title>Adversarial Environment Generation for Learning to Navigate the Web</title>
+      <link>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/explore-and-control-with-adversarial-surprise/</guid>
+      <guid>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</guid>
       <description></description>
     </item>
     

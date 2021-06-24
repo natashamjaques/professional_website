@@ -55,6 +55,8 @@ links:
   url: https://www.youtube.com/channel/UCNzeAAPyZaX4EDr720q5msg
 - name: IEEE Spectrum article
   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
+- name: ICML 2019 Best Papers
+  url: https://medium.com/syncedreview/icml-2019-google-eth-zurich-mpi-is-cambridge-prowler-io-share-best-paper-honours-4aeabd5c9fc8
 url_pdf: https://arxiv.org/pdf/1810.08647.pdf
 url_code: ''
 url_dataset: ''

@@ -20,13 +20,64 @@
     <loc>/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>/publication-type/3/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/a.-fickinger/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/complexity/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/explore-and-control-with-adversarial-surprise/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/g.-berseth/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/intrinsic-motivation/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/m.-chang/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/multi-agent/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/n.-rhinehart/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/natasha-jaques/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/reinforcement-learning/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/s.-levine/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/s.-parajuli/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/s.-russell/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication-type/1/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/a.-filos/</loc>
-    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/c.-lyle/</loc>
@@ -47,22 +98,7 @@
     <loc>/publication/learning-social-learning/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/multi-agent/</loc>
-    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/natasha-jaques/</loc>
-    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/</loc>
-    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/s.-levine/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/sergey-levine/</loc>
@@ -71,7 +107,7 @@
     <loc>/tag/social-learning/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/tag/successor-features/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/y.-gal/</loc>
@@ -83,19 +119,10 @@
     <loc>/courses/example/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/a.-faust/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/a.-fickinger/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/complexity/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/cooperation/</loc>
@@ -110,10 +137,7 @@
     <loc>/author/d.-schuurmans/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/explore-and-control-with-adversarial-surprise/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/g.-berseth/</loc>
+    <loc>/tag/deep-learning/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/h.-lee/</loc>
@@ -131,22 +155,7 @@
     <loc>/author/k.-malta/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/m.-chang/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/m.-tiwari/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/n.-rhinehart/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/reinforcement-learning/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/s.-parajuli/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/s.-russell/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/alexandre-bayen/</loc>
@@ -266,6 +275,9 @@
     <loc>/author/f.-creutzig/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tag/healthcare/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication/hierarchical-reinforcement-learning-for-opendomain-dialog/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -323,9 +335,6 @@
     <loc>/publication/tackling-climate-change-with-machine-learning/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/way-offpolicy-batch-deep-reinforcement-learning-of-implicit-human-pref/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/y.-bengio/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -381,9 +390,6 @@
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/e.-nosakhare/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/healthcare/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/importance-of-sleep-data-in-predicting-nextday-stress-happiness-and-he/</loc>
@@ -579,9 +585,6 @@
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/compression/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/deep-learning/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/emotionally-adaptive-intelligent-tutoring-systems-using-pomdps/</loc>

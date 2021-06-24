@@ -39,7 +39,7 @@ featured: false
 
 links:
 url_pdf: https://affect.media.mit.edu/pdfs/17.Jaques_autoencoder_ACII.pdf
-url_code: ''
+url_code: https://github.com/natashamjaques/MultimodalAutoencoder
 url_dataset: ''
 url_poster: ''
 url_project: ''

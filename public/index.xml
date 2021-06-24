@@ -128,6 +128,14 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
+      <title>Explore and Control with Adversarial Surprise</title>
+      <link>/publication/explore-and-control-with-adversarial-surprise/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/explore-and-control-with-adversarial-surprise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Learning Social Learning</title>
       <link>/publication/learning-social-learning/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
@@ -148,14 +156,6 @@ The variance of the distribution is $\sigma^{2}$.
       <link>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Explore and Control with Adversarial Surprise</title>
-      <link>/publication/explore-and-control-with-adversarial-surprise/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/explore-and-control-with-adversarial-surprise/</guid>
       <description></description>
     </item>
     
@@ -357,14 +357,6 @@ Three
       <link>/publication/tackling-climate-change-with-machine-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/tackling-climate-change-with-machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Way Off-Policy Batch Deep Reinforcement Learning of Implicit Human Preferences in Dialog</title>
-      <link>/publication/way-offpolicy-batch-deep-reinforcement-learning-of-implicit-human-pref/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/way-offpolicy-batch-deep-reinforcement-learning-of-implicit-human-pref/</guid>
       <description></description>
     </item>
     

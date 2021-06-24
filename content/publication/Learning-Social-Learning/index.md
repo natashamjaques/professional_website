@@ -21,7 +21,7 @@ publication_types: ["1"]
 publication: In *International Conference on Machine Learning (ICML)*
 publication_short: In *International Conference on Machine Learning (ICML);* *NeurIPS Cooperative AI Workshop* **Best Paper**
 
-abstract: 
+abstract: Social learning is a key component of human and animal intelligence. By taking cues from the behavior of experts in their environment, social learners can acquire sophisticated behavior and rapidly adapt to new circumstances. This paper investigates whether independent reinforcement learning (RL) agents in a multi-agent environment can learn to use social learning to improve their performance. We find that in most circumstances, vanilla model-free RL agents do not use social learning. We analyze the reasons for this deficiency, and show that by imposing constraints on the training environment and introducing a model-based auxiliary loss we are able to obtain generalized social learning policies which enable agents to i) discover complex skills that are not learned from single-agent training, and ii) adapt online to novel environments by taking cues from experts present in the new environment. In contrast, agents trained with model-free RL or imitation learning generalize poorly and do not succeed in the transfer tasks. By mixing multi-agent and solo training, we can obtain agents that use social learning to gain skills that they can deploy when alone, even out-performing agents trained alone from the start.
 
 # Summary. An optional shortened abstract.
 summary: Model-free RL agents fail to learn from experts present in multi-agent environments. By adding a model-based auxiliary loss, we induce social learning, which gives agents better abilities to generalize to new environments than solo RL or imitation learning. 
@@ -34,6 +34,8 @@ tags:
 featured: false
 
 links:
+- name: Cooperative AI talk
+  url: https://slideslive.com/38938232/learning-social-learning?ref=account-folder-62099-folders
 url_pdf: https://arxiv.org/abs/2010.00581
 url_code: https://github.com/kandouss/marlgrid
 url_dataset: ''
@@ -46,7 +48,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'PAIRED generates complex environments by maximizing regret between two agents'
+  caption: ''
   focal_point: Center
   preview_only: false
 

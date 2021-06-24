@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="Existing metrics for automatically evaluating dialog models correlate poorly with human judgements, and are evaluated on static conversation snippets. Instead, we deploy bots to interact live with humans, then approximate human ratings with state-of-the-art accuracy using conversations generated with self-play." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/approximating-interactive-human-evaluation-with-selfplay-for-opendomai/" />
@@ -291,16 +291,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Natasha Jaques" />
   <meta property="og:url" content="/publication/approximating-interactive-human-evaluation-with-selfplay-for-opendomai/" />
   <meta property="og:title" content="Approximating Interactive Human Evaluation with Self-Play for Open-Domain Dialog Systems | Natasha Jaques" />
-  <meta property="og:description" content="" /><meta property="og:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Existing metrics for automatically evaluating dialog models correlate poorly with human judgements, and are evaluated on static conversation snippets. Instead, we deploy bots to interact live with humans, then approximate human ratings with state-of-the-art accuracy using conversations generated with self-play." /><meta property="og:image" content="/publication/approximating-interactive-human-evaluation-with-selfplay-for-opendomai/featured.png" />
+    <meta property="twitter:image" content="/publication/approximating-interactive-human-evaluation-with-selfplay-for-opendomai/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -334,6 +333,10 @@
   },
   "headline": "Approximating Interactive Human Evaluation with Self-Play for Open-Domain Dialog Systems",
   
+  "image": [
+    "/publication/approximating-interactive-human-evaluation-with-selfplay-for-opendomai/featured.png"
+  ],
+  
   "datePublished": "2019-01-01T00:00:00Z",
   "dateModified": "2019-01-01T00:00:00Z",
   
@@ -350,7 +353,7 @@
       "url": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "Existing metrics for automatically evaluating dialog models correlate poorly with human judgements, and are evaluated on static conversation snippets. Instead, we deploy bots to interact live with humans, then approximate human ratings with state-of-the-art accuracy using conversations generated with self-play."
 }
 </script>
 
@@ -663,18 +666,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>Approximating Interactive Human Evaluation with Self-Play for Open-Domain Dialog Systems</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -717,7 +728,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -751,6 +762,22 @@
 </a>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/https:/github.com/natashamjaques/neural_chat" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/https:/affect.media.mit.edu/neural_chat/datasets/reddit_casual_preprocessed.tar.gz" target="_blank" rel="noopener">
+  Dataset
+</a>
 
 
 
@@ -766,13 +793,23 @@
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 215px;">
+  <div style="position: relative">
+    <img src="/publication/approximating-interactive-human-evaluation-with-selfplay-for-opendomai/featured_hue8cca3e1162717034f72869e58803ed8_387009_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Building an open-domain conversational agent is a challenging problem. Current evaluation methods, mostly post-hoc judgments of static conversation, do not capture conversation quality in a realistic interactive context. In this paper, we investigate interactive human evaluation and provide evidence for its necessity; we then introduce a novel, model-agnostic, and dataset-agnostic method to approximate it. In particular, we propose a self-play scenario where the dialog system talks to itself and we calculate a combination of proxies such as sentiment and semantic coherence on the conversation trajectory. We show that this metric is capable of capturing the human-rated quality of a dialog model better than any automated metric known to-date, achieving a significant Pearson correlation (r&gt;.7, p&lt;.05). To investigate the strengths of this novel metric and interactive evaluation in comparison to state-of-the-art metrics and human evaluation of static conversations, we perform extended experiments with a set of models, including several that make novel improvements to recent hierarchical dialog generation architectures through sentiment and semantic knowledge distillation on the utterance level. Finally, we open-source the interactive evaluation platform we built and the dataset we collected to allow researchers to efficiently deploy and evaluate dialog models.</p>
     
 
     
@@ -829,6 +866,8 @@
   
   <a class="badge badge-light" href="/tag/human-ai-interaction/">Human-AI Interaction</a>
   
+  <a class="badge badge-light" href="/tag/deep-learning/">Deep Learning</a>
+  
 </div>
 
 
@@ -876,7 +915,7 @@
     <div class="media-body">
       <h5 class="card-title">Natasha Jaques</h5>
       
-      <p class="card-text">My research is focused on Social Reinforcement Learning&ndash;developing RL algorithms that use insights from social learning to improve RL agents' learning, generalization, coordination, and human-AI interaction.</p>
+      <p class="card-text">My research is focused on Social Reinforcement Learning&ndash;developing RL algorithms that use insights from social learning and Affective Computing to improve RL agents' learning, generalization, coordination, and human-AI interaction.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -1002,9 +1041,9 @@
       
       <li><a href="/publication/humancentric-dialog-training-via-offline-reinforcement-learning/">Human-Centric Dialog Training via Offline Reinforcement Learning</a></li>
       
-      <li><a href="/publication/way-offpolicy-batch-deep-reinforcement-learning-of-implicit-human-pref/">Way Off-Policy Batch Deep Reinforcement Learning of Implicit Human Preferences in Dialog</a></li>
+      <li><a href="/publication/automatic-triage-and-analysis-of-online-suicide-risk-with-document-emb/">Automatic Triage and Analysis of Online Suicide Risk with Document Embeddings and Latent Dirichlet Allocation</a></li>
       
-      <li><a href="/publication/learning-via-social-awareness-improving-a-deep-generative-sketching-mo/">Learning via Social Awareness: Improving a Deep Generative Sketching Model with Facial Feedback</a></li>
+      <li><a href="/publication/tackling-climate-change-with-machine-learning/">Tackling Climate Change with Machine Learning</a></li>
       
     </ul>
   </div>

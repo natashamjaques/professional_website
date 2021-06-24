@@ -31,9 +31,9 @@ publication_types: ["1"]
 publication: In *IEEE Engineering in Medicine and Biology Society (EMBC)* 
 publication_short: In *IEEE Engineering in Medicine and Biology Society (EMBC)* 
 
-abstract: 
+abstract: This exploratory study examined the effects of varying g-forces, including feelings of weightlessness, on an individual’s physiology during parabolic flight. Specifically, we collected heart rate, accelerometer, and skin conductance measurements from 16 flyers aboard a parabolic flight using wearable, wireless sensors. The biosignals were then correlated to participant reports of nausea, anxiety, and excitement during periods of altered g-forces. Using linear mixed-effects models, we found that (1) heart rate was positively correlated to individuals’ self-reported highest/lowest periods of both anxiety and excitement, and (2) bilateral skin conductance asymmetry was positively correlated to individuals’ self-reported highest/lowest periods of nausea.
 # Summary. An optional shortened abstract.
-summary: ''
+summary: During a zero-gravity parabolic flight, we recorded participants' heart rate, accelerometer, and skin conductance measurements as well as their self-report nausea, anxiety, and excitement. Statistical analysis revealed that skin conductance is predictive of nausea, while heart rate is predictive of anxiety and excitement. 
 
 tags:
 - Affective Computing
