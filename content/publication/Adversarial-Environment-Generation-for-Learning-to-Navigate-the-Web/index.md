@@ -31,9 +31,10 @@ publication_types: ["3"]
 publication: In *Neural Information Processing Systems (NeurIPS) (submitted)* 
 publication_short: In *Neural Information Processing Systems (NeurIPS) (submitted)* 
 
-abstract: 
+abstract: Learning to autonomously navigate the web is a difficult sequential decision making task. The state and action spaces are large and combinatorial in nature, and websites are dynamic environments consisting of several pages. One of the bottlenecks of training web navigation agents is providing a learnable curriculum of training environments that can cover the large variety of real-world websites. Therefore, we propose using Adversarial Environment Generation (AEG) to generate challenging web environments in which to train reinforcement learning (RL) agents. We provide a new benchmarking environment, gMiniWoB, which enables an RL adversary to use compositional primitives to learn to generate arbitrarily complex websites. To train the adversary, we propose a new technique for maximizing regret using the difference in the scores obtained by a pair of navigator agents. Our results show that our approach significantly outperforms prior methods for minimax regret AEG. The regret objective trains the adversary to design a curriculum of environments that are "just-the-right-challenge" for the navigator agents; our results show that over time, the adversary learns to generate increasingly complex web navigation tasks. The navigator agents trained with our technique learn to complete challenging, high-dimensional web navigation tasks, such as form filling, booking a flight etc. We show that the navigator agent trained with our proposed Flexible b-PAIRED technique significantly outperforms competitive automatic curriculum generation baselines -- including a state-of-the-art RL web navigation approach -- on a set of challenging unseen test environments, and achieves more than 80% success rate on some tasks.
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: We analyze and improve upon PAIRED in the case of learning to generate challenging compositional tasks. We apply our improved algorithm to generating a curriculum of novel websites, in order to train RL agents that can navigate web pages.
 
 tags:
 - Complexity

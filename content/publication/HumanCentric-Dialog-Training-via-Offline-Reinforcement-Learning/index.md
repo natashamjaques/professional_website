@@ -35,21 +35,25 @@ publication_types: ["1"]
 publication: In *Empirical Methods in Natural Language Processing (EMNLP)* 
 publication_short: In *Empirical Methods in Natural Language Processing (EMNLP)* 
 
-abstract: 
+abstract: How can we train a dialog model to produce better conversations by learning from human feedback, without the risk of humans teaching it harmful chat behaviors? We start by hosting models online, and gather human feedback from real-time, open-ended conversations, which we then use to train and improve the models using offline reinforcement learning (RL). We identify implicit conversational cues including language similarity, elicitation of laughter, sentiment, and more, which indicate positive human feedback, and embed these in multiple reward functions. A wellknown challenge is that learning an RL policy in an offline setting usually fails due to the lack of ability to explore and the tendency to make over-optimistic estimates of future reward. These problems become even harder when using RL for language models, which can easily have a 20,000 action vocabulary and many possible reward functions. We solve the challenge by developing a novel class of offline RL algorithms. These algorithms use KL-control to penalize divergence from a pretrained prior language model, and use a new strategy to make the algorithm pessimistic, instead of optimistic, in the face of uncertainty. We test the resulting dialog model with ratings from 80 users in an open-domain setting and find it achieves significant improvements over existing deep offline RL approaches. The novel offline RL method is viable for improving any existing generative dialog model using a static dataset of human feedback.
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: We train dialog models using Offline RL based on data from conversations with real humans. Rather than rely on manual ratings, we learn from implicit signals like sentiment, and show that this results in better performance.
 
 tags:
 - Human-AI Interaction
 - Social Learning
 - Affective Computing
 - Offline RL
+- Reinforcement Learning
 featured: false
 
 links:
+- name: EMNLP Talk
+  url: https://virtual.2020.emnlp.org/paper_main.2410.html
 url_pdf: https://arxiv.org/pdf/2010.05848.pdf
-url_code: ''
-url_dataset: ''
+url_code: https://github.com/natashamjaques/neural_chat
+url_dataset: https://affect.media.mit.edu/neural_chat/datasets/reddit_casual_preprocessed.tar.gz
 url_poster: ''
 url_project: ''
 url_slides: ''
