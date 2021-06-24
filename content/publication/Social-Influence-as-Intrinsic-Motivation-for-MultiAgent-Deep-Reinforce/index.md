@@ -35,17 +35,26 @@ publication_types: ["1"]
 publication: In *International Conference on Machine Learning (ICML)* **Best Paper Honourable Mention (top 0.26\% of submissions)**
 publication_short: In *International Conference on Machine Learning (ICML)* **Best Paper Honourable Mention (top 0.26\% of submissions)**
 
-abstract: 
+abstract: We propose a unified mechanism for achieving coordination and communication in Multi-Agent Reinforcement Learning (MARL), through rewarding agents for having causal influence over other agents' actions. Causal influence is assessed using counterfactual reasoning. At each timestep, an agent simulates alternate actions that it could have taken, and computes their effect on the behavior of other agents. Actions that lead to bigger changes in other agents' behavior are considered influential and are rewarded. We show that this is equivalent to rewarding agents for having high mutual information between their actions. Empirical results demonstrate that influence leads to enhanced coordination and communication in challenging social dilemma environments, dramatically increasing the learning curves of the deep RL agents, and leading to more meaningful learned communication protocols. The influence rewards for all agents can be computed in a decentralized way by enabling agents to learn a model of other agents using deep neural networks. In contrast, key previous works on emergent communication in the MARL setting were unable to learn diverse policies in a decentralized manner and had to resort to centralized training. Consequently, the influence reward opens up a window of new opportunities for research in this area.
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: Social influence is a unified mechanism for achieving coordination and communication in Multi-Agent Reinforcement Learning, through rewarding agents for having causal influence over other agents' actions, thus increasing mutual information between agents' actions. It can be computed in a fully decentralized manner. 
 
 tags:
 - Cooperation
 - Multi-Agent
 - Communication and Language
-featured: false
+- Intrinsic Motivation
+- Reinforcement Learning
+featured: true
 
 links:
+- name: ICML talk
+  url: https://www.facebook.com/watch/live/?v=355035025132741&ref=watch_permalink
+- name: Videos
+  url: https://www.youtube.com/channel/UCNzeAAPyZaX4EDr720q5msg
+- name: IEEE Spectrum article
+  url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 url_pdf: https://arxiv.org/pdf/1810.08647.pdf
 url_code: ''
 url_dataset: ''

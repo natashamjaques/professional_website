@@ -40,7 +40,9 @@ tags:
 - Social Learning
 - Multi-Agent
 - Generalization
-featured: true
+- Reinforcement Learning
+- Successor Features
+featured: false
 
 links:
 url_pdf: https://arxiv.org/pdf/2102.12560.pdf

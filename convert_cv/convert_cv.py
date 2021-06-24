@@ -36,9 +36,12 @@ TRUNCATE_TITLES = 70
 DATE_FORMAT = '"%Y-%m-%dT%H:%M:%SZ"'
 
 # Paper titles of publications that have already been created under different directory names
+# Or which should not be replaced because of custom features
 ALREADY_ADDED = ["Emergent Social Learning via Multi-agent Reinforcement Learning",
 				 "Learning Social Learning",
-				 "Emergent Complexity and Zero-Shot Transfer via Unsupervised Environment Design"]
+				 "Emergent Complexity and Zero-Shot Transfer via Unsupervised Environment Design",
+				 "Social and Affective Machine Learning",
+				 "Way Off-Policy Batch Deep Reinforcement Learning of Implicit Human Preferences in Dialog"]
 
 
 class Author:

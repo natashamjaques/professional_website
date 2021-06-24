@@ -33,21 +33,23 @@ publication_types: ["1"]
 publication: In *Neural Information Processing Systems (NeurIPS)* 
 publication_short: In *Neural Information Processing Systems (NeurIPS)* 
 
-abstract: 
+abstract: Building an open-domain conversational agent is a challenging problem. Current evaluation methods, mostly post-hoc judgments of static conversation, do not capture conversation quality in a realistic interactive context. In this paper, we investigate interactive human evaluation and provide evidence for its necessity; we then introduce a novel, model-agnostic, and dataset-agnostic method to approximate it. In particular, we propose a self-play scenario where the dialog system talks to itself and we calculate a combination of proxies such as sentiment and semantic coherence on the conversation trajectory. We show that this metric is capable of capturing the human-rated quality of a dialog model better than any automated metric known to-date, achieving a significant Pearson correlation (r>.7, p<.05). To investigate the strengths of this novel metric and interactive evaluation in comparison to state-of-the-art metrics and human evaluation of static conversations, we perform extended experiments with a set of models, including several that make novel improvements to recent hierarchical dialog generation architectures through sentiment and semantic knowledge distillation on the utterance level. Finally, we open-source the interactive evaluation platform we built and the dataset we collected to allow researchers to efficiently deploy and evaluate dialog models.
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: Existing metrics for automatically evaluating dialog models correlate poorly with human judgements, and are evaluated on static conversation snippets. Instead, we deploy bots to interact live with humans, then approximate human ratings with state-of-the-art accuracy using conversations generated with self-play.  
 
 tags:
 - Communication and Language
 - Affective Computing
 - Machine Learning
 - Human-AI Interaction
+- Deep Learning
 featured: false
 
 links:
 url_pdf: https://arxiv.org/abs/1906.09308
-url_code: ''
-url_dataset: ''
+url_code: https://github.com/natashamjaques/neural_chat
+url_dataset: https://affect.media.mit.edu/neural_chat/datasets/reddit_casual_preprocessed.tar.gz
 url_poster: ''
 url_project: ''
 url_slides: ''

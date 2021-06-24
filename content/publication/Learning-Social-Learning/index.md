@@ -30,7 +30,8 @@ tags:
 - Social Learning
 - Multi-Agent
 - Generalization
-featured: true
+- Reinforcement Learning
+featured: false
 
 links:
 url_pdf: https://arxiv.org/abs/2010.00581

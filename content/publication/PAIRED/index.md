@@ -44,6 +44,10 @@ links:
   url: https://www.youtube.com/channel/UCI6dkF8eNrCz6XiBJlV9fmw/videos
 - name: NeurIPS Oral
   url: https://neurips.cc/virtual/2020/public/poster_985e9a46e10005356bbaf194249f6856.html
+- name: Science article
+  url: https://www.sciencemag.org/news/2021/01/who-needs-teacher-artificial-intelligence-designs-lesson-plans-itself
+- name: Google AI Blog
+  url: https://ai.googleblog.com/2021/03/paired-new-multi-agent-approach-for.html
 url_pdf: https://arxiv.org/abs/2012.02096
 url_code: https://github.com/google-research/google-research/tree/master/social_rl/adversarial_env
 url_dataset: ''

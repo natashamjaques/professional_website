@@ -63,15 +63,24 @@ publication_types: ["3"]
 publication: In *(Arxiv preprint)* 
 publication_short: In *(Arxiv preprint)* 
 
-abstract: 
+abstract: Climate change is one of the greatest challenges facing humanity, and we, as machine learning experts, may wonder how we can help. Here we describe how machine learning can be a powerful tool in reducing greenhouse gas emissions and helping society adapt to a changing climate. From smart grids to disaster management, we identify high impact problems where existing gaps can be filled by machine learning, in collaboration with other fields. Our recommendations encompass exciting research questions as well as promising business opportunities. We call on the machine learning community to join the global effort against climate change.
 # Summary. An optional shortened abstract.
-summary: ''
+summary: This paper comprehensively surveys the ways in which machine learning could be usefully deployed in the fight against climate change. From smart grids to disaster management, we identify high impact problems and outline how machine learning can be employed to address them.
 
 tags:
 - Climate Change
+- Machine Learning
+- Deep Learning
+- Reinforcement Learning
 featured: false
 
 links:
+- name: CCAI Organization
+  url: https://www.climatechange.ai/
+- name: MIT Tech Review article
+  url: https://www.technologyreview.com/2019/06/20/134864/ai-climate-change-machine-learning/
+- name: National Geographic article
+  url: https://www.nationalgeographic.com/environment/article/artificial-intelligence-climate-change
 url_pdf: https://arxiv.org/abs/1906.05433
 url_code: ''
 url_dataset: ''

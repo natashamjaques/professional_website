@@ -9,7 +9,7 @@ authors:
 - G. Berseth
 - S. Russell
 - S. Levine
-date: "2021-01-01T00:00:00Z"
+date: "2021-05-30T00:00:00Z"
 doi: ""
 
 author_notes:
@@ -43,6 +43,8 @@ summary: Adversarial Surprise creates a competitive game between an Expore polic
 tags:
 - Complexity
 - Multi-Agent
+- Intrinsic Motivation
+- Reinforcement Learning
 featured: false
 
 links:

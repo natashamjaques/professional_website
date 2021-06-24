@@ -29,12 +29,15 @@ publication_types: ["1"]
 publication: In *Affective Computing and Intelligence Interaction (ACII) workshop on Machine Learning for Mental Health* 
 publication_short: In *Affective Computing and Intelligence Interaction (ACII) workshop on Machine Learning for Mental Health* 
 
-abstract: 
+abstract: Abstract—Machine learning is applied to a dataset of the suicidality of Reddit users in which the suicide risk labels were derived from knowledge of expert clinicians. We present the results of machine learning models based on transfer learning from document embeddings trained on large external corpora, and find that they have very high F1 scores (.83 − .92) in distinguishing which users are most at risk of committing suicide. Thus, these models could potentially provide valuable aid in triaging care for individuals most in danger. We compare the document embedding approach with one which incorporates expert domain knowledge. Word importance is assessed as a way of suggesting signs that could indicate suicide risk in online posts. Finally, we learn a Latent Dirichlet Allocation (LDA) topic model and find that suicidal users post about different topics to the rest of Reddit than non-suicidal users.
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: To predict which users are at risk of suicide based on a small dataset of online posts, we leverage pre-trained sentence embeddings from large language models, and achieve high F1 scores (.83-.92). We further analyze users' posts to determine which topics are most associated with suicidal users.
 
 tags:
 - Affective Computing
+- Machine Learning
+- Healthcare
 featured: false
 
 links:

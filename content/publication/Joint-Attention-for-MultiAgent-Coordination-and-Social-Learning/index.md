@@ -31,18 +31,22 @@ publication_types: ["1"]
 publication: In *ICRA Social Intelligence Workshop* **Spotlight talk**
 publication_short: In *ICRA Social Intelligence Workshop* **Spotlight talk**
 
-abstract: 
+abstract: Joint attention - the ability to purposefully coordinate attention with another agent, and mutually attend to the same thing -- is a critical component of human social cognition. In this paper, we ask whether joint attention can be useful as a mechanism for improving multi-agent coordination and social learning. We first develop deep reinforcement learning (RL) agents with a recurrent visual attention architecture. We then train agents to minimize the difference between the attention weights that they apply to the environment at each timestep, and the attention of other agents. Our results show that this joint attention incentive improves agents' ability to solve difficult coordination tasks, by reducing the exponential cost of exploring the joint multi-agent action space. Joint attention leads to higher performance than a competitive centralized critic baseline across multiple environments. Further, we show that joint attention enhances agents' ability to learn from experts present in their environment, even when completing hard exploration tasks that do not require coordination. Taken together, these findings suggest that joint attention may be a useful inductive bias for multi-agent learning.
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: Joint attention is a critical component of human social cognition. In this paper, we ask whether a mechanism based on shared visual attention can be useful for improving multi-agent coordination and social learning.
 
 tags:
 - Multi-Agent
 - Cooperation
+- Intrinsic Motivation
+- Social Learning
+- Reinforcement Learning
 featured: false
 
 links:
 url_pdf: https://arxiv.org/abs/2104.07750
-url_code: ''
+url_code: https://github.com/google-research/google-research/tree/master/social_rl/multiagent_tfagents/joint_attention
 url_dataset: ''
 url_poster: ''
 url_project: ''

@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="We train dialog models using Offline RL based on data from conversations with real humans. Rather than rely on manual ratings, we learn from implicit signals like sentiment, and show that this results in better performance." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/humancentric-dialog-training-via-offline-reinforcement-learning/" />
@@ -291,16 +291,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Natasha Jaques" />
   <meta property="og:url" content="/publication/humancentric-dialog-training-via-offline-reinforcement-learning/" />
   <meta property="og:title" content="Human-Centric Dialog Training via Offline Reinforcement Learning | Natasha Jaques" />
-  <meta property="og:description" content="" /><meta property="og:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="We train dialog models using Offline RL based on data from conversations with real humans. Rather than rely on manual ratings, we learn from implicit signals like sentiment, and show that this results in better performance." /><meta property="og:image" content="/publication/humancentric-dialog-training-via-offline-reinforcement-learning/featured.png" />
+    <meta property="twitter:image" content="/publication/humancentric-dialog-training-via-offline-reinforcement-learning/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -334,6 +333,10 @@
   },
   "headline": "Human-Centric Dialog Training via Offline Reinforcement Learning",
   
+  "image": [
+    "/publication/humancentric-dialog-training-via-offline-reinforcement-learning/featured.png"
+  ],
+  
   "datePublished": "2020-01-01T00:00:00Z",
   "dateModified": "2020-01-01T00:00:00Z",
   
@@ -350,7 +353,7 @@
       "url": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "We train dialog models using Offline RL based on data from conversations with real humans. Rather than rely on manual ratings, we learn from implicit signals like sentiment, and show that this results in better performance."
 }
 </script>
 
@@ -663,18 +666,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>Human-Centric Dialog Training via Offline Reinforcement Learning</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -717,7 +728,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -751,6 +762,22 @@
 </a>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/https:/github.com/natashamjaques/neural_chat" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/https:/affect.media.mit.edu/neural_chat/datasets/reddit_casual_preprocessed.tar.gz" target="_blank" rel="noopener">
+  Dataset
+</a>
 
 
 
@@ -761,18 +788,44 @@
 
 
 
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://virtual.2020.emnlp.org/paper_main.2410.html" target="_blank" rel="noopener">
+    
+    EMNLP Talk
+  </a>
+
+</div>
 
 
 </div>
 
 
-  
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 408px;">
+  <div style="position: relative">
+    <img src="/publication/humancentric-dialog-training-via-offline-reinforcement-learning/featured_hud9f1a8371ef1afad2d7e710a56a9cc97_688018_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">How can we train a dialog model to produce better conversations by learning from human feedback, without the risk of humans teaching it harmful chat behaviors? We start by hosting models online, and gather human feedback from real-time, open-ended conversations, which we then use to train and improve the models using offline reinforcement learning (RL). We identify implicit conversational cues including language similarity, elicitation of laughter, sentiment, and more, which indicate positive human feedback, and embed these in multiple reward functions. A wellknown challenge is that learning an RL policy in an offline setting usually fails due to the lack of ability to explore and the tendency to make over-optimistic estimates of future reward. These problems become even harder when using RL for language models, which can easily have a 20,000 action vocabulary and many possible reward functions. We solve the challenge by developing a novel class of offline RL algorithms. These algorithms use KL-control to penalize divergence from a pretrained prior language model, and use a new strategy to make the algorithm pessimistic, instead of optimistic, in the face of uncertainty. We test the resulting dialog model with ratings from 80 users in an open-domain setting and find it achieves significant improvements over existing deep offline RL approaches. The novel offline RL method is viable for improving any existing generative dialog model using a static dataset of human feedback.</p>
     
 
     
@@ -828,6 +881,8 @@
   <a class="badge badge-light" href="/tag/affective-computing/">Affective Computing</a>
   
   <a class="badge badge-light" href="/tag/offline-rl/">Offline RL</a>
+  
+  <a class="badge badge-light" href="/tag/reinforcement-learning/">Reinforcement Learning</a>
   
 </div>
 

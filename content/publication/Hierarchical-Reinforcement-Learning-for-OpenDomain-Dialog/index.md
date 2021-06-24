@@ -29,9 +29,10 @@ publication_types: ["1"]
 publication: In *Association for the Advancement of Artificial Intelligence (AAAI)* **Oral (top 7.8\% of submissions)**
 publication_short: In *Association for the Advancement of Artificial Intelligence (AAAI)* **Oral (top 7.8\% of submissions)**
 
-abstract: 
+abstract: Open-domain dialog generation is a challenging problem; maximum likelihood training can lead to repetitive outputs, models have difficulty tracking long-term conversational goals, and training on standard movie or online datasets may lead to the generation of inappropriate, biased, or offensive text. Reinforcement Learning (RL) is a powerful framework that could potentially address these issues, for example by allowing a dialog model to optimize for reducing toxicity and repetitiveness. However, previous approaches which apply RL to open-domain dialog generation do so at the word level, making it difficult for the model to learn proper credit assignment for long-term conversational rewards. In this paper, we propose a novel approach to hierarchical reinforcement learning, VHRL, which uses policy gradients to tune the utterance-level embedding of a variational sequence model. This hierarchical approach provides greater flexibility for learning long-term, conversational rewards. We use self-play and RL to optimize for a set of human-centered conversation metrics, and show that our approach provides significant improvements -- in terms of both human evaluation and automatic metrics -- over state-of-the-art dialog models, including Transformers.
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: For the first time, we use hierarchical reinforcement learning to train open-domain dialog models, enabling the optimization of long-term, conversational, rewards, including reducing the toxicity of generated language. Our approach provides significant improvements over state-of-the-art dialog models.
 
 tags:
 - Communication and Language
@@ -39,8 +40,8 @@ featured: false
 
 links:
 url_pdf: https://arxiv.org/abs/1909.07547
-url_code: ''
-url_dataset: ''
+url_code: https://github.com/natashamjaques/neural_chat/tree/master/HierarchicalRL
+url_dataset: https://affect.media.mit.edu/neural_chat/datasets/reddit_casual_preprocessed.tar.gz
 url_poster: ''
 url_project: ''
 url_slides: ''

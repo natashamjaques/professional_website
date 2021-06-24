@@ -16,7 +16,7 @@ organizations:
   url: http://rail.eecs.berkeley.edu/people.html
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research is focused on Social Reinforcement Learning--developing RL algorithms that use insights from social learning to improve RL agents' learning, generalization, coordination, and human-AI interaction.
+bio: My research is focused on Social Reinforcement Learning--developing RL algorithms that use insights from social learning and Affective Computing to improve RL agents' learning, generalization, coordination, and human-AI interaction.
 
 # Interests to show in About widget
 interests:
