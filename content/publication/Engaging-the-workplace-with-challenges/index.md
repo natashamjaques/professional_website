@@ -23,9 +23,10 @@ publication_types: ["1"]
 publication: In *International Conference on Persuasive Technologies* 
 publication_short: In *International Conference on Persuasive Technologies* 
 
-abstract: 
+abstract: "Mental wellbeing is intimately tied to both social support and physical activity. The Challenge is a tool aimed at promoting social connections and decreasing sedentary activity in a workplace environment. Our system asks participants to sign up for short physical challenges and pairs them with a partner to perform the activity. Social obligation and social consensus are leveraged to promote participation. Two experiments were conducted in which participants' overall activity levels were monitored with a fitness tracker. In the first study, we show that the system can improve users' physical activity, decrease sedentary time, and promote social connection. As part of the second study, we provide a detailed social network analysis of the participants, demonstrating that users' physical activity and participation depends strongly on their social community."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: The Challenge is a tool aimed at promoting social connections and decreasing sedentary activity in a workplace environment. Participants are paired with a partner to complete short physical challenges, leveraging social obligation and social consensus to drive behavior change.
 
 tags:
 - Behavior Change
@@ -34,14 +35,16 @@ tags:
 featured: false
 
 links:
-url_pdf: https://www.media.mit.edu/projects/the-challenge/overview/
+- name: Extended paper
+  url: https://drive.google.com/file/d/15Pimm1FwwxSPPX04KTr84ilVHJvVExPd/view?usp=sharing
+url_pdf: https://drive.google.com/file/d/168_D8T70JbQsrhTU0_6ZuFUyD14NbY1-/view?usp=sharing
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: https://www.youtube.com/watch?v=coyW2yzQhFg
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

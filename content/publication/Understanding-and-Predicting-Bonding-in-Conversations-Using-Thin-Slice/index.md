@@ -4,7 +4,7 @@ authors:
 - admin
 - D. McDuff
 - Y. K. Kim
-- \& Picard R. Picard R
+- Picard R
 date: "2016-01-01T00:00:00Z"
 doi: ""
 
@@ -24,17 +24,21 @@ publishDate: "2016-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Intelligent Virtual Agents* 
-publication_short: In *Intelligent Virtual Agents* 
+publication: In *Intelligent Virtual Agents (IVA)* 
+publication_short: In *Intelligent Virtual Agents (IVA)* 
 
-abstract: 
+abstract: "This paper investigates how an intelligent agent could be designed to both predict whether it is bonding with its user, and convey appropriate facial expression and body language responses to foster bonding. Video and Kinect recordings are collected from a series of naturalistic conversations, and a reliable measure of bonding is adapted and verified. A qualitative and quantitative analysis is conducted to determine the non-verbal cues that characterize both high and low bonding conversations. We then train a deep neural network classifier using one minute segments of facial expression and body language data, and show that it is able to accurately predict bonding in novel conversations."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: Given only one-minute slices of facial expressions and body language, we use machine learning to accurately predict whether two humans having a conversation will bond with each other. We analyze factors which lead to bonding and discover that synchrony in body language and appropriate, empathetic facial expressions lead to higher bonding. 
 
 tags:
 - Affective Computing
 - Human-AI Interaction
 - Intelligent Virtual Agents
+- Machine Learning
+- Deep Learning
+- Communication and Language
 featured: false
 
 links:

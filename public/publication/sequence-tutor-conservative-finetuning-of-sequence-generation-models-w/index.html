@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="To combine supervised learning on data with reinforcement learning, we pre-train a supervised data prior, and penalize KL-divergence from this model using RL training. This enables effective learning of complex sequence-modeling problems for which we wish to match the data while optimizing external metrics like drug effectiveness. The approach produces compelling results in the disparate domains of music generation and drug discovery." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/sequence-tutor-conservative-finetuning-of-sequence-generation-models-w/" />
@@ -291,16 +291,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Natasha Jaques" />
   <meta property="og:url" content="/publication/sequence-tutor-conservative-finetuning-of-sequence-generation-models-w/" />
   <meta property="og:title" content="Sequence Tutor: Conservative Fine-Tuning of Sequence Generation Models with KL-control | Natasha Jaques" />
-  <meta property="og:description" content="" /><meta property="og:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="To combine supervised learning on data with reinforcement learning, we pre-train a supervised data prior, and penalize KL-divergence from this model using RL training. This enables effective learning of complex sequence-modeling problems for which we wish to match the data while optimizing external metrics like drug effectiveness. The approach produces compelling results in the disparate domains of music generation and drug discovery." /><meta property="og:image" content="/publication/sequence-tutor-conservative-finetuning-of-sequence-generation-models-w/featured.png" />
+    <meta property="twitter:image" content="/publication/sequence-tutor-conservative-finetuning-of-sequence-generation-models-w/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -334,6 +333,10 @@
   },
   "headline": "Sequence Tutor: Conservative Fine-Tuning of Sequence Generation Models with KL-control",
   
+  "image": [
+    "/publication/sequence-tutor-conservative-finetuning-of-sequence-generation-models-w/featured.png"
+  ],
+  
   "datePublished": "2017-01-01T00:00:00Z",
   "dateModified": "2017-01-01T00:00:00Z",
   
@@ -350,7 +353,7 @@
       "url": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "To combine supervised learning on data with reinforcement learning, we pre-train a supervised data prior, and penalize KL-divergence from this model using RL training. This enables effective learning of complex sequence-modeling problems for which we wish to match the data while optimizing external metrics like drug effectiveness. The approach produces compelling results in the disparate domains of music generation and drug discovery."
 }
 </script>
 
@@ -663,18 +666,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>Sequence Tutor: Conservative Fine-Tuning of Sequence Generation Models with KL-control</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -717,7 +728,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -739,7 +750,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="/https:/arxiv.org/pdf/1611.02796.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/https:/arxiv.org/abs/1611.02796" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -751,6 +762,13 @@
 </a>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/https:/github.com/tensorflow/magenta/tree/master/magenta/models/rl_tuner" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
@@ -761,18 +779,45 @@
 
 
 
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://vimeo.com/240608475" target="_blank" rel="noopener">
+    
+    ICML talk
+  </a>
+
+</div>
 
 
 </div>
 
 
-  
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 291px;">
+  <div style="position: relative">
+    <img src="/publication/sequence-tutor-conservative-finetuning-of-sequence-generation-models-w/featured_hucb3b8929e71da7daf5aeefaef53b5a36_184666_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">This paper proposes a general method for improving the structure and quality of sequences generated by a recurrent neural network (RNN), while maintaining information originally learned from data, as well as sample diversity. An RNN is first pre-trained on data using maximum likelihood estimation (MLE), and the probability distribution over the next token in the sequence learned by this model is treated as a prior policy. Another RNN is then trained using reinforcement learning (RL) to generate higher-quality outputs that account for domain-specific incentives while retaining proximity to the prior policy of the MLE RNN. To formalize this objective, we derive novel off-policy RL methods for RNNs from KL-control. The effectiveness of the approach is demonstrated on two applications; 1) generating novel musical melodies, and 2) computational molecular generation. For both problems, we show that the proposed method improves the desired properties and structure of the generated sequences, while maintaining information learned from data.</p>
     
 
     
@@ -821,6 +866,8 @@
 
 <div class="article-tags">
   
+  <a class="badge badge-light" href="/tag/sequence-modeling/">Sequence Modeling</a>
+  
   <a class="badge badge-light" href="/tag/communication-and-language/">Communication and Language</a>
   
   <a class="badge badge-light" href="/tag/music-generation/">Music Generation</a>
@@ -830,6 +877,14 @@
   <a class="badge badge-light" href="/tag/healthcare/">Healthcare</a>
   
   <a class="badge badge-light" href="/tag/generalization/">Generalization</a>
+  
+  <a class="badge badge-light" href="/tag/transfer-learning/">Transfer Learning</a>
+  
+  <a class="badge badge-light" href="/tag/kl-control/">KL-control</a>
+  
+  <a class="badge badge-light" href="/tag/reinforcement-learning/">Reinforcement Learning</a>
+  
+  <a class="badge badge-light" href="/tag/machine-learning/">Machine Learning</a>
   
 </div>
 
@@ -994,13 +1049,13 @@
       
       <li><a href="/publication/social-and-affective-machine-learning/">Social and Affective Machine Learning</a></li>
       
-      <li><a href="/publication/multimodal-autoencoder-a-deep-learning-approach-to-filling-in-missing-/">Multimodal Autoencoder: A Deep Learning Approach to Filling in Missing Sensor Data and Enabling Better Mood Prediction</a></li>
-      
       <li><a href="/publication/personalized-multitask-learning-for-predicting-tomorrows-mood-stress-a/">Personalized Multitask Learning for Predicting Tomorrow&#39;s Mood, Stress, and Health</a></li>
       
       <li><a href="/publication/predicting-tomorrows-mood-health-and-stress-level-using-personalized-m/">Predicting Tomorrow’s Mood, Health, and Stress Level using Personalized Multitask Learning and Domain Adaptation</a></li>
       
-      <li><a href="/publication/multitask-learning-for-predicting-health-stress-and-happiness/">Multi-task Learning for Predicting Health, Stress, and Happiness</a></li>
+      <li><a href="/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/">Adversarial Environment Generation for Learning to Navigate the Web</a></li>
+      
+      <li><a href="/publication/learning-social-learning/">Learning Social Learning</a></li>
       
     </ul>
   </div>

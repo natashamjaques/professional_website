@@ -37,11 +37,12 @@ abstract: Learning to autonomously navigate the web is a difficult sequential de
 summary: We analyze and improve upon PAIRED in the case of learning to generate challenging compositional tasks. We apply our improved algorithm to generating a curriculum of novel websites, in order to train RL agents that can navigate web pages.
 
 tags:
-- Complexity
+- Emergent Complexity
 - Multi-Agent
 - Generalization
 - Reinforcement Learning
 - Deep Learning
+- Web Navigation
 featured: false
 
 links:

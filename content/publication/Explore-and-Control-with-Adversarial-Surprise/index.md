@@ -41,10 +41,11 @@ abstract: Reinforcement learning (RL) provides a framework for learning goal-dir
 summary: Adversarial Surprise creates a competitive game between an Expore policy and a Control policy, which fight to maximize and minimize the amount of entropy an RL agent experiences. We show both theoretically and empirically that this technique fully explores the state space of partially-observed, stochastic environments. 
 
 tags:
-- Complexity
+- Emergent Complexity
 - Multi-Agent
 - Intrinsic Motivation
 - Reinforcement Learning
+- Deep Learning
 featured: false
 
 links:

@@ -3,9 +3,9 @@ title: "Active learning for Electrodermal Activity classification"
 authors:
 - V. Xia
 - admin
-- Taylor S. Taylor
+- S. Taylor
 - S. Fedor
-- \& Picard R. Picard R
+- Picard R
 date: "2015-01-01T00:00:00Z"
 doi: ""
 
@@ -29,9 +29,10 @@ publication_types: ["1"]
 publication: In *IEEE Conference on Signal Processing in Medicine and Biology (SPMB)* 
 publication_short: In *IEEE Conference on Signal Processing in Medicine and Biology (SPMB)* 
 
-abstract: 
+abstract: "To filter noise or detect features within physiological signals, it is often effective to encode expert knowledge into a model such as a machine learning classifier. However, training such a model can require much effort on the part of the researcher; this often takes the form of manually labeling portions of signal needed to represent the concept being trained. Active learning is a technique for reducing human effort by developing a classifier that can intelligently select the most relevant data samples and ask for labels for only those samples, in an iterative process. In this paper we demonstrate that active learning can reduce the labeling effort required of researchers by as much as 84% for our application, while offering equivalent or even slightly improved machine learning performance."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: "We use labels provided by domain experts to classify whether artifacts are present in an Electrodermal Activity signal. Through the use of active learning, we improve sample efficiency and reduce the burden on human experts by as much as 84%, while offering the same or improved performance."
 
 tags:
 - Active Learning

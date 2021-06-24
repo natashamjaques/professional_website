@@ -30,7 +30,7 @@ content:
   - name: Multi-Agent
     tag: Multi-Agent
   - name: Emergent Complexity
-    tag: Complexity
+    tag: Emergent Complexity
   - name: Social Learning
     tag: Social Learning
   - name: Affective Computing
@@ -59,4 +59,4 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
-To find relevant content, try [searching publications](./publication/) or filtering using the buttons below:
+To find relevant content, try [searching publications](./publication/) or filtering using the buttons below. A * denotes equal contribution.

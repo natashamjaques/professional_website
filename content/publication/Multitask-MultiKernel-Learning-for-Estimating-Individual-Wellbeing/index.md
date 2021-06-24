@@ -27,9 +27,10 @@ publication_types: ["1"]
 publication: In *Neural Information Processing Systems (NeurIPS) Workshop on Multimodal Machine Learning* 
 publication_short: In *Neural Information Processing Systems (NeurIPS) Workshop on Multimodal Machine Learning* 
 
-abstract: 
+abstract: "We apply a recently proposed technique – Multi-task Multi-Kernel Learning (MTMKL) – to the problem of modeling students’ wellbeing. Because wellbeing is a complex internal state consisting of several related dimensions, Multi-task learning can be used to classify them simultaneously. Multiple Kernel Learning is used to efficiently combine data from multiple modalities. MTMKL combines these approaches using an optimization function similar to a support vector machine (SVM). We show that MTMKL successfully classifies five dimensions of wellbeing, and provides performance benefits above both SVM and MKL."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: Wellbeing is a complex internal state consisting of several related dimensions, such as happiness, stress, energy, and health. We use Multi-task Multi-kernel learning to classify them simultaneously, leading to significant performance approvements.
 
 tags:
 - Generalization
@@ -37,11 +38,13 @@ tags:
 - Wellbeing
 - Healthcare
 - Physiology
+- Multi-task Learning
+- Machine Learning
 featured: false
 
 links:
 url_pdf: https://affect.media.mit.edu/pdfs/15.Jaques-etal-NIPSMMML.pdf
-url_code: ''
+url_code: https://github.com/mitmedialab/PersonalizedMultitaskLearning/tree/master/MTMKL
 url_dataset: ''
 url_poster: ''
 url_project: ''

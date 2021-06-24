@@ -34,7 +34,7 @@ abstract: A wide range of reinforcement learning (RL) problems - including robus
 summary: PAIRED trains an agent to generate environments that maximize regret between a pair of learning agents. This creates feasible yet challenging environments, which exploit weaknesses in the agents to make them more robust. PAIRED significantly improves generalization to novel tasks.
 
 tags:
-- Complexity
+- Emergent Complexity
 - Multi-Agent
 - Generalization
 - Deep Learning

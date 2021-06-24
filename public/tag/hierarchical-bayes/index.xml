@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hierarchical Bayes | Natasha Jaques</title>
+    <link>/tag/hierarchical-bayes/</link>
+      <atom:link href="/tag/hierarchical-bayes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hierarchical Bayes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Hierarchical Bayes</title>
+      <link>/tag/hierarchical-bayes/</link>
+    </image>
+    
+    <item>
+      <title>Personalized Multitask Learning for Predicting Tomorrow&#39;s Mood, Stress, and Health</title>
+      <link>/publication/personalized-multitask-learning-for-predicting-tomorrows-mood-stress-a/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/personalized-multitask-learning-for-predicting-tomorrows-mood-stress-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

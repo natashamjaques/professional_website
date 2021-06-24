@@ -53,6 +53,14 @@
     </item>
     
     <item>
+      <title>Emergent Complexity and Zero-shot Transfer via Unsupervised Environment Design</title>
+      <link>/publication/paired/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/paired/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Human-Centric Dialog Training via Offline Reinforcement Learning</title>
       <link>/publication/humancentric-dialog-training-via-offline-reinforcement-learning/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -81,6 +89,14 @@
       <link>/publication/tackling-climate-change-with-machine-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/tackling-climate-change-with-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequence Tutor: Conservative Fine-Tuning of Sequence Generation Models with KL-control</title>
+      <link>/publication/sequence-tutor-conservative-finetuning-of-sequence-generation-models-w/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/sequence-tutor-conservative-finetuning-of-sequence-generation-models-w/</guid>
       <description></description>
     </item>
     

@@ -31,20 +31,24 @@ publication_types: ["1"]
 publication: In *Sleep* 
 publication_short: In *Sleep* 
 
-abstract: 
+abstract: "The SNAPSHOT Study is a large-scale and long-term study that seeks to measure: Sleep, Networks, Affect, Performance, Stress, and Health using Objective Techniques. This study investigates: (1) how daily behaviors influence sleep, stress, mood, and other wellbeing-related factors (2) how accurately we can recognize/predict stress, mood and wellbeing (3) how interactions in a social network influence sleep behaviors. In this work we investigate the use of machine learning methods, using sleep and wake data, to predict mood. We seek to model behavioral patterns to predict these downturns in mood and begin to understand what will help build resilience to depression. Our results reveal that stress and happiness can be predicted most reliably from these signals, and that data collected while participants were asleep is particularly important to classifying happiness."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: Machine learning applied to nightly data from sensors and smartphones, shows value for predicting college student’s mood the following evening. Using multi-task learning to simultaneously predicted related wellbeing factors like health, energy, stress, and alertness improves performance.
 
 tags:
 - Affective Computing
 - Wellbeing
 - Healthcare
 - Physiology
+- Machine Learning
+- Kernel Methods
+- Multi-task Learning
 featured: false
 
 links:
 url_pdf: https://affect.media.mit.edu/pdfs/16.Taylor-ClassifyingSelfReportedMood-SLEEP2016.pdf
-url_code: ''
+url_code: https://github.com/mitmedialab/PersonalizedMultitaskLearning
 url_dataset: ''
 url_poster: ''
 url_project: ''

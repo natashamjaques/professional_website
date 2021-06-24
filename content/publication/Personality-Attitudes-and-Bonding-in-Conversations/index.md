@@ -25,9 +25,10 @@ publication_types: ["1"]
 publication: In *Intelligent Virtual Agents* 
 publication_short: In *Intelligent Virtual Agents* 
 
-abstract: 
+abstract: "This paper investigates how the personality and attitudes of intelligent agents could be designed to most effectively promote bonding. Observational data are collected from a series of conversations, and a measure of bonding is adapted and verified. The effects of personality and dispositional attitudes on bonding are analyzed, and we find that attentiveness and excitement are more effective at promoting bonding than traits like attractiveness and humour."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: "We collect observational data from real human conversations, and develop a measure of how much participants experienced bonding or chemistry. We analyze the effects of personality and attitudes on bonding, and find that attentiveness and excitement are more effective at promoting bonding than traits like attractiveness and humour."
 
 tags:
 - Communication and Language

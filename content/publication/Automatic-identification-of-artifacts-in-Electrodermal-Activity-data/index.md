@@ -6,7 +6,7 @@ authors:
 - W. Chen
 - S. Fedor
 - A. Sano
-- \& Picard R. Picard R
+- R. Picard
 date: "2015-01-01T00:00:00Z"
 doi: ""
 
@@ -31,20 +31,29 @@ publication_types: ["1"]
 publication: In *International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)* 
 publication_short: In *International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)* 
 
-abstract: 
+abstract: "Recently, wearable devices have allowed for long term, ambulatory measurement of electrodermal activity (EDA). Despite the fact that ambulatory recording can be noisy, and recording artifacts can easily be mistaken for a physiological response during analysis, to date there is no automatic method for detecting artifacts. This paper describes the development of a machine learning algorithm for automatically detecting EDA artifacts, and provides an empirical evaluation of classification performance. We have encoded our results into a freely available web-based tool for artifact and peak detection."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: "Ambulatory measurement of Electrodermal Activity (EDA) from the wrist has important clinical benefits, such as predicting mood, stress, health, or even seizures. However, ambulatory measurement is noisy, and artifacts can easily be mistaken for true Skin Conductance Responses (SCRs). In addition to our paper which describes a machine learning method for detecting artifacts with 95% test accuracy, we built EDA Explorer, an open-source tool that allows users to automatically detect artifacts and SCRs within their data."
 
 tags:
 - Affective Computing
 - Physiology
 - Sensors
 - Machine Learning
-featured: false
+featured: true
 
 links:
+- name: EDA Explorer tool
+  url: https://eda-explorer.media.mit.edu/
+- name: Artifact detection tutorial
+  url: https://www.youtube.com/watch?v=s_QqG-QtMdM
+- name: SCR detection tutorial
+  url: https://www.youtube.com/watch?v=BbnOmQzxBh4
+- name: Research which uses EDA Explorer
+  url: https://eda-explorer.media.mit.edu/research/
 url_pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5413200/
-url_code: ''
+url_code: https://github.com/MITMediaLabAffectiveComputing/eda-explorer
 url_dataset: ''
 url_poster: ''
 url_project: ''

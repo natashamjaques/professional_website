@@ -33,9 +33,9 @@ publication_types: ["1"]
 publication: In *Proceedings of the CHI Conference Extended Abstracts on Human Factors* 
 publication_short: In *Proceedings of the CHI Conference Extended Abstracts on Human Factors* 
 
-abstract: 
+abstract: "In this work we introduce an experimental methodology and open-sourced web application designed to promote behavior change and wellbeing within a workplace environment. Colleagues are paired together and asked to design a Behavioral Intervention Technology (BIT) uniquely customized to suit their partner’s behavior change goal. We present the results of a preliminary evaluation of the experiment, and suggest ways to further improve and expand our experiment design."
 # Summary. An optional shortened abstract.
-summary: ''
+summary: To help promote behavior change, we leverage the power of social obligation, and conduct an experiment in which participants are paired together and asked to design a Behavioral Intervention Technology (BIT) customized to suit their partner’s behavior change goal.
 
 tags:
 - Affective Computing

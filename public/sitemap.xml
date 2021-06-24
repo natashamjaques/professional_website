@@ -395,10 +395,25 @@
     <loc>/author/e.-nosakhare/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tag/gaussian-processes/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/hierarchical-bayes/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication/importance-of-sleep-data-in-predicting-nextday-stress-happiness-and-he/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/j.-m.-hernandez-lobato/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/kernel-methods/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/kl-control/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/multi-task-learning/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/multimodal-autoencoder-a-deep-learning-approach-to-filling-in-missing-/</loc>
@@ -422,7 +437,16 @@
     <loc>/author/sano-a.-e.-nosakhare/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tag/sequence-modeling/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication/sequence-tutor-conservative-finetuning-of-sequence-generation-models-w/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/transfer-learning/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/wellbeing/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/%5C-picard-r.-picard-r/</loc>
@@ -470,13 +494,7 @@
     <loc>/publication/machine-learning-of-sleep-and-wake-behaviors-to-classify-selfreported-/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/multitask-learning-for-predicting-health-stress-and-happiness/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/n.-farve/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/nosakhare-e.-nosakhare/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/p.-maes/</loc>
@@ -488,13 +506,7 @@
     <loc>/author/s.-oore/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/sano-a.-sano/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/t.-rich/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/taylor-s.-taylor/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/tuning-recurrent-neural-networks-with-reinforcement-learning/</loc>
@@ -504,9 +516,6 @@
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/w.v.-chen/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/wellbeing/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/y.-k.-kim/</loc>
@@ -554,7 +563,13 @@
     <loc>/publication/recognizing-academic-performance-sleep-quality-stress-level-and-mental/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/author/sano-a.-sano/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication/smiletracker-automatically-and-unobtrusively-recording-smiles-and-thei/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/taylor-s.-taylor/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/v.-xia/</loc>

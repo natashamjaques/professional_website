@@ -27,6 +27,7 @@ and index.md file. An empty index.md can be found in this directory.
 """
 
 import os
+import sys
 from datetime import datetime
 
 CV_PATH = '/Users/natasha/Developer/professional_website/convert_cv/cv.tex'
@@ -43,7 +44,8 @@ ALREADY_ADDED = ["Emergent Social Learning via Multi-agent Reinforcement Learnin
 				 "Social and Affective Machine Learning",
 				 "Way Off-Policy Batch Deep Reinforcement Learning of Implicit Human Preferences in Dialog",
 				 "Multi-task Learning for Predicting Health, Stress, and Happiness",
-				 "Personalized Multitask Learning for Predicting Tomorrow's Mood, Stress, and Health"]
+				 "Personalized Multitask Learning for Predicting Tomorrow's Mood, Stress, and Health",
+				 "Predicting students' happiness from physiology, phone, mobility, and behavioral data"]
 
 
 class Author:
@@ -130,6 +132,16 @@ class Publication:
 			if 'publication_types:' in line:
 				md_lines[i] = 'publication_types: ["' + self.publication_type + '"]\n'
 			if 'url_pdf:' in line:
+				existing_url = line[len('url_pdf: '):]
+				if 'http' in existing_url and existing_url != self.url:
+					print("Eek! Not sure if it's okay to overwrite existing url for", self.title)
+					print("Existing URL:", existing_url)
+					print("CV URL:", self.url)
+					response = input('Proceed (y) or quit?')
+					if response != 'y':
+						print('Quitting!')
+						sys.exit()
+						import pdb; pdb.set_trace()  # should never get here
 				md_lines[i] = 'url_pdf: ' + self.url +  '\n'
 
 			# Track this info

@@ -47,11 +47,15 @@ tags:
 - KL-control
 - Reinforcement Learning
 - Machine Learning
-featured: false
+featured: true
 
 links:
 - name: ICML talk
   url: https://vimeo.com/240608475
+- name: Magenta blog
+  url: https://magenta.tensorflow.org/2016/11/09/tuning-recurrent-networks-with-reinforcement-learning
+- name: MIT Tech Review article
+  url: https://www.technologyreview.com/2016/11/30/155729/ai-songsmith-cranks-out-surprisingly-catchy-tunes/
 url_pdf: https://arxiv.org/abs/1611.02796
 url_code: https://github.com/tensorflow/magenta/tree/master/magenta/models/rl_tuner
 url_dataset: ''
