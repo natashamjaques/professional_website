@@ -27,9 +27,10 @@ publication_types: ["1"]
 publication: In *International Conference on Affective Computing and Intelligent Interaction (ACII)* 
 publication_short: In *International Conference on Affective Computing and Intelligent Interaction (ACII)* 
 
-abstract: 
+abstract: "To accomplish forecasting of mood in real-world situations, affective computing systems need to collect and learn from multimodal data collected over weeks or months of daily use. Such systems are likely to encounter frequent data loss, e.g. when a phone loses location access, or when a sensor is recharging. Lost data can handicap classifiers trained with all modalities present in the data. This paper describes a new technique for handling missing multimodal data using a specialized denoising autoencoder: the Multimodal Autoencoder (MMAE). Empirical results from over 200 participants and 5500 days of data demonstrate that the MMAE is able to predict the feature values from multiple missing modalities more accurately than reconstruction methods such as principal components analysis (PCA). We discuss several practical benefits of the MMAE’s encoding and show that it can provide robust mood prediction even when up to three quarters of the data sources are lost."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: Predicting signals like stress and health depends on collecting noisy data from a number of modalities, e.g. smartphone data, or physiological data from a wrist-worn sensor. Our method can continue making accurate predictions even when a modality goes missing; for example, if the person forgets to wear their sensor.
 
 tags:
 - Affective Computing

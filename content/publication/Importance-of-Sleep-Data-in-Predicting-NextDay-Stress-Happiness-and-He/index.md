@@ -29,9 +29,10 @@ publication_types: ["2"]
 publication: In *Journal of Sleep and Sleep Disorders Research (suppl\_1)* 
 publication_short: In *Journal of Sleep and Sleep Disorders Research (suppl\_1)* 
 
-abstract: 
+abstract: Perceived wellbeing, as measured by self-reported health, stress, and happiness, has a number of important clinical health consequences. The ability to model and predict these measures could therefore be immensely beneficial in the treatment and prevention of mental illness. However, predicting self-reported health, stress, and happiness is a difficult problem often requiring large, multi-modal datasets. We show that the accuracy for predicting next-day wellbeing is improved when including simple sleep features.
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: We train personalized hierarchical Bayes models to predict individual's next-day stress, happiness, and health, and examine the effect of including features related to sleep in the model. Including sleep features significantly improves performance when predicting happiness. 
 
 tags:
 - Affective Computing

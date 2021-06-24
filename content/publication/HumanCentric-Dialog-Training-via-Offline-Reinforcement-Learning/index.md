@@ -46,7 +46,7 @@ tags:
 - Affective Computing
 - Offline RL
 - Reinforcement Learning
-featured: false
+featured: true
 
 links:
 - name: EMNLP Talk

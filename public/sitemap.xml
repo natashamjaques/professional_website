@@ -74,6 +74,30 @@
     <loc>/tags/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/author/a.-faust/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/generalization/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/h.-lee/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/i.-gur/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/k.-malta/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/m.-tiwari/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication-type/1/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -87,9 +111,6 @@
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/g.-farquhar/</loc>
-    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/generalization/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/kamal-ndousse/</loc>
@@ -119,12 +140,6 @@
     <loc>/courses/example/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/a.-faust/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/cooperation/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -137,25 +152,10 @@
     <loc>/author/d.-schuurmans/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/deep-learning/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/h.-lee/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/i.-gur/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/j.-kew/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/joint-attention-for-multiagent-coordination-and-social-learning/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/k.-malta/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/m.-tiwari/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/alexandre-bayen/</loc>
@@ -342,6 +342,9 @@
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/f.-bertsch/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/generative-models/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/j.-engel/</loc>

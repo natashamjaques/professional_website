@@ -49,10 +49,10 @@ tags:
 featured: true
 
 links:
-- name: ICML talk
-  url: https://www.facebook.com/watch/live/?v=355035025132741&ref=watch_permalink
 - name: Videos
   url: https://www.youtube.com/channel/UCNzeAAPyZaX4EDr720q5msg
+- name: ICML talk
+  url: https://www.facebook.com/watch/live/?v=355035025132741&ref=watch_permalink
 - name: IEEE Spectrum article
   url: https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork
 - name: ICML 2019 Best Papers

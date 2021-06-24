@@ -1,8 +1,8 @@
 ---
 title: "Personalized Multitask Learning for Predicting Tomorrow's Mood, Stress, and Health"
 authors:
-- S. Taylor
 - admin
+- S. Taylor
 - E. Nosakhare
 - A. Sano
 - R. Picard
@@ -23,11 +23,11 @@ publishDate: "2017-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["2","1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE Transactions on Affective Computing* 
-publication_short: In *IEEE Transactions on Affective Computing* 
+publication: In *IEEE Transactions on Affective Computing (TAFFC)*; *NeurIPS Machine Learning for Healthcare (ML4HC) Workshop* **Best Paper**
+publication_short: In *IEEE Transactions on Affective Computing (TAFFC)*; *NeurIPS Machine Learning for Healthcare (ML4HC) Workshop* **Best Paper**
 
 abstract: 
 # Summary. An optional shortened abstract.
@@ -37,11 +37,17 @@ tags:
 - Affective Computing
 - Generalization
 - Healthcare
-featured: false
+- Machine Learning
+- Deep Learning
+featured: true
 
 links:
-url_pdf: https://affect.media.mit.edu/pdfs/17.TaylorJaques-PredictingTomorrowsMoods.pdf
-url_code: ''
+- name: ML4HC Best Paper
+  url: https://pdfs.semanticscholar.org/b228/7a406985980515d5cc63e9b37fb17c5186f8.pdf
+- name: TAFFC Journal Paper
+  url: https://affect.media.mit.edu/pdfs/17.TaylorJaques-PredictingTomorrowsMoods.pdf
+url_pdf: ''
+url_code: https://github.com/mitmedialab/PersonalizedMultitaskLearning
 url_dataset: ''
 url_poster: ''
 url_project: ''

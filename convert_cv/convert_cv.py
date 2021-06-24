@@ -41,7 +41,9 @@ ALREADY_ADDED = ["Emergent Social Learning via Multi-agent Reinforcement Learnin
 				 "Learning Social Learning",
 				 "Emergent Complexity and Zero-Shot Transfer via Unsupervised Environment Design",
 				 "Social and Affective Machine Learning",
-				 "Way Off-Policy Batch Deep Reinforcement Learning of Implicit Human Preferences in Dialog"]
+				 "Way Off-Policy Batch Deep Reinforcement Learning of Implicit Human Preferences in Dialog",
+				 "Multi-task Learning for Predicting Health, Stress, and Happiness",
+				 "Personalized Multitask Learning for Predicting Tomorrow's Mood, Stress, and Health"]
 
 
 class Author:

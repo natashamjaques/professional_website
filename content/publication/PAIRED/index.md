@@ -37,6 +37,8 @@ tags:
 - Complexity
 - Multi-Agent
 - Generalization
+- Deep Learning
+- Reinforcement Learning
 featured: true
 
 links:
