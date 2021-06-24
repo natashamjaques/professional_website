@@ -212,8 +212,6 @@ class Publication:
 
 
 def parse_paper_entry(line):
-	if '\textbf' in line:
-		import pdb; pdb.set_trace()
 	line = fix_formatting(line)
 
 	# Extract authors

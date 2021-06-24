@@ -2,9 +2,9 @@
 title: "Multi-task Multi-Kernel Learning for Estimating Individual Wellbeing"
 authors:
 - admin
-- Taylor S. Taylor
-- Sano A. Sano
-- \& Picard R. Picard R
+- S. Taylor
+- A. Sano
+- R. Picard
 date: "2015-01-01T00:00:00Z"
 doi: ""
 
