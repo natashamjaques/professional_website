@@ -5,7 +5,7 @@ authors:
 - admin
 - S. Taylor
 - S. Fedor
-- Picard R
+- R. Picard
 date: "2015-01-01T00:00:00Z"
 doi: ""
 

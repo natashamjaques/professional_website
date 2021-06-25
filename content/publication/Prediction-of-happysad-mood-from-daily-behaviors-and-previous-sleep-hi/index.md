@@ -2,14 +2,14 @@
 title: "Prediction of happy-sad mood from daily behaviors and previous sleep history"
 authors:
 - A. Sano
-- Yu A.Z. Yu A.
+- A.Z. Yu
 - A.W. McHill
 - A.J. Phillips
 - S. Taylor
 - admin
 - C. A. Czeisler
 - E. B. Klerman
-- \& Picard R. Picard R
+- R. Picard
 date: "2015-01-01T00:00:00Z"
 doi: ""
 
