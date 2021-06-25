@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="This demo deployed RL Tuner and other Magenta music generation models into an interactive interface in which users can collaborate creatively with a machine learning model. The interface supports call and response interaction, automatically generating an accompaniment to the user&#39;s melody, or melody morphing: responding both with variations on the user&#39;s melody and a bass accompaniment." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/interactive-musical-improvisation-with-magenta/" />
@@ -291,16 +291,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Natasha Jaques" />
   <meta property="og:url" content="/publication/interactive-musical-improvisation-with-magenta/" />
   <meta property="og:title" content="Interactive Musical Improvisation with Magenta | Natasha Jaques" />
-  <meta property="og:description" content="" /><meta property="og:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="This demo deployed RL Tuner and other Magenta music generation models into an interactive interface in which users can collaborate creatively with a machine learning model. The interface supports call and response interaction, automatically generating an accompaniment to the user&#39;s melody, or melody morphing: responding both with variations on the user&#39;s melody and a bass accompaniment." /><meta property="og:image" content="/publication/interactive-musical-improvisation-with-magenta/featured.png" />
+    <meta property="twitter:image" content="/publication/interactive-musical-improvisation-with-magenta/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -334,6 +333,10 @@
   },
   "headline": "Interactive Musical Improvisation with Magenta",
   
+  "image": [
+    "/publication/interactive-musical-improvisation-with-magenta/featured.png"
+  ],
+  
   "datePublished": "2016-01-01T00:00:00Z",
   "dateModified": "2016-01-01T00:00:00Z",
   
@@ -350,7 +353,7 @@
       "url": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "This demo deployed RL Tuner and other Magenta music generation models into an interactive interface in which users can collaborate creatively with a machine learning model. The interface supports call and response interaction, automatically generating an accompaniment to the user's melody, or melody morphing: responding both with variations on the user's melody and a bass accompaniment."
 }
 </script>
 
@@ -663,18 +666,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>Interactive Musical Improvisation with Magenta</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -717,7 +728,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -734,14 +745,8 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary btn-page-header" href="/https:/nips.cc/Conferences/2016/Schedule?showEvent=6307" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -751,6 +756,13 @@
 </a>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/https:/github.com/magenta/magenta" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
@@ -761,18 +773,85 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/https:/www.youtube.com/watch?v=QlVoR1jQrPk&amp;t=1s" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://nips.cc/Conferences/2016/Schedule?showEvent=6307" target="_blank" rel="noopener">
+    
+    NeurIPS Demo
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://magenta.tensorflow.org/" target="_blank" rel="noopener">
+    
+    Magenta
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://magenta.tensorflow.org/2016/12/16/nips-demo" target="_blank" rel="noopener">
+    
+    Blog post
+  </a>
+
+</div>
 
 
 </div>
 
 
-  
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 270px;">
+  <div style="position: relative">
+    <img src="/publication/interactive-musical-improvisation-with-magenta/featured_hua2b05f5395a7f293ef7ae22096a89626_1371142_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">We combine LSTM-based recurrent neural networks and Deep Q-learning for generation of musical sequences in real time. The role of the LSTM is to learn the general structure of music scores (encoded as MIDI, not audio). Deep Q-learning is used to improve and focus the generated sequences based on rewards such as desired genre, compositional correctness and ability to predict aspects of what the human collaborator is playing. This combination of RNN model-based generation with reinforcement learning is, to our knowledge, novel in the domain of music generation. This approach also yields more stable, musically-relevant sequences than LSTM alone. The networks are trained for two tasks: the generation of responses to short melodic inputs, and the generation of an accompaniment to melodic input in real time, requiring continuous prediction of future output. The addition of a novel MIDI interface on top of of TensorFlow enables improvisational experiences, allowing one to interact with the neural networks in real time. Our main goal is to have attendees know what it’s like to collaborate creatively with a machine learning model. We’ll have professional music equipment configured such that multiple attendees can play with Magenta using MIDI keyboards using a fast and responsive interface, that allows for call and response interaction, automatically generating an accompaniment to the user&rsquo;s melody, or melody morphing: responding both with variations on the user&rsquo;s melody and a bass accompaniment.</p>
     
 
     
@@ -824,6 +903,12 @@
   <a class="badge badge-light" href="/tag/music-generation/">Music Generation</a>
   
   <a class="badge badge-light" href="/tag/demo/">Demo</a>
+  
+  <a class="badge badge-light" href="/tag/deep-learning/">Deep Learning</a>
+  
+  <a class="badge badge-light" href="/tag/generative-models/">Generative Models</a>
+  
+  <a class="badge badge-light" href="/tag/sequence-modeling/">Sequence Modeling</a>
   
 </div>
 
@@ -896,7 +981,7 @@
     <div class="media-body">
       <h5 class="card-title">Natasha Jaques</h5>
       
-      <p class="card-text">My research is focused on Social Reinforcement Learning&ndash;developing RL algorithms that use insights from social learning and Affective Computing to improve RL agents' learning, generalization, coordination, and human-AI interaction.</p>
+      <p class="card-text">My research is focused on Social Reinforcement Learning&ndash;developing algorithms that use insights from social learning and Affective Computing to improve AI agents' learning, generalization, coordination, and human-AI interaction.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -1004,9 +1089,15 @@
     <h3>Related</h3>
     <ul>
       
+      <li><a href="/publication/learning-via-social-awareness-improving-a-deep-generative-sketching-mo/">Learning via Social Awareness: Improving a Deep Generative Sketching Model with Facial Feedback</a></li>
+      
       <li><a href="/publication/sequence-tutor-conservative-finetuning-of-sequence-generation-models-w/">Sequence Tutor: Conservative Fine-Tuning of Sequence Generation Models with KL-control</a></li>
       
-      <li><a href="/publication/tuning-recurrent-neural-networks-with-reinforcement-learning/">Tuning Recurrent Neural Networks with Reinforcement Learning</a></li>
+      <li><a href="/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/">Adversarial Environment Generation for Learning to Navigate the Web</a></li>
+      
+      <li><a href="/publication/explore-and-control-with-adversarial-surprise/">Explore and Control with Adversarial Surprise</a></li>
+      
+      <li><a href="/publication/paired/">Emergent Complexity and Zero-shot Transfer via Unsupervised Environment Design</a></li>
       
     </ul>
   </div>

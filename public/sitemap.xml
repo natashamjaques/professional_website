@@ -29,7 +29,10 @@
     <loc>/authors/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/complexity/</loc>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/emergent-complexity/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/explore-and-control-with-adversarial-surprise/</loc>
@@ -80,9 +83,6 @@
     <loc>/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/deep-learning/</loc>
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/generalization/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -96,6 +96,9 @@
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/m.-tiwari/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/web-navigation/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication-type/1/</loc>
@@ -503,6 +506,9 @@
     <loc>/publication/personality-attitudes-and-bonding-in-conversations/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/author/picard-r/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/author/s.-oore/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -563,13 +569,7 @@
     <loc>/publication/recognizing-academic-performance-sleep-quality-stress-level-and-mental/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/sano-a.-sano/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/smiletracker-automatically-and-unobtrusively-recording-smiles-and-thei/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/taylor-s.-taylor/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/v.-xia/</loc>

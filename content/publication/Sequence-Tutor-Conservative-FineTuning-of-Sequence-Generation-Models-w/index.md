@@ -52,6 +52,8 @@ featured: true
 links:
 - name: ICML talk
   url: https://vimeo.com/240608475
+- name: Generated music
+  url: https://youtu.be/abBfZB5DlSY
 - name: Magenta blog
   url: https://magenta.tensorflow.org/2016/11/09/tuning-recurrent-networks-with-reinforcement-learning
 - name: MIT Tech Review article

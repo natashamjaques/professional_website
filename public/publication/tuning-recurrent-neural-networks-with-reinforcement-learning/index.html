@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="Generating music using traditional supervised sequence models suffers from known failure modes, including the inability to produce coherent global structure. Music is an interesting sequence generation problem, because musical compositions adhere to known rules. We impose these rules with a novel algorithm combining RL and supervised learning." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/tuning-recurrent-neural-networks-with-reinforcement-learning/" />
@@ -291,16 +291,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Natasha Jaques" />
   <meta property="og:url" content="/publication/tuning-recurrent-neural-networks-with-reinforcement-learning/" />
   <meta property="og:title" content="Tuning Recurrent Neural Networks with Reinforcement Learning | Natasha Jaques" />
-  <meta property="og:description" content="" /><meta property="og:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Generating music using traditional supervised sequence models suffers from known failure modes, including the inability to produce coherent global structure. Music is an interesting sequence generation problem, because musical compositions adhere to known rules. We impose these rules with a novel algorithm combining RL and supervised learning." /><meta property="og:image" content="/publication/tuning-recurrent-neural-networks-with-reinforcement-learning/featured.png" />
+    <meta property="twitter:image" content="/publication/tuning-recurrent-neural-networks-with-reinforcement-learning/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -334,6 +333,10 @@
   },
   "headline": "Tuning Recurrent Neural Networks with Reinforcement Learning",
   
+  "image": [
+    "/publication/tuning-recurrent-neural-networks-with-reinforcement-learning/featured.png"
+  ],
+  
   "datePublished": "2016-01-01T00:00:00Z",
   "dateModified": "2016-01-01T00:00:00Z",
   
@@ -350,7 +353,7 @@
       "url": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "Generating music using traditional supervised sequence models suffers from known failure modes, including the inability to produce coherent global structure. Music is an interesting sequence generation problem, because musical compositions adhere to known rules. We impose these rules with a novel algorithm combining RL and supervised learning."
 }
 </script>
 
@@ -663,18 +666,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>Tuning Recurrent Neural Networks with Reinforcement Learning</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -717,7 +728,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -751,6 +762,13 @@
 </a>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/https:/github.com/tensorflow/magenta/tree/master/magenta/models/rl_tuner" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
@@ -761,18 +779,61 @@
 
 
 
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://magenta.tensorflow.org/2016/11/09/tuning-recurrent-networks-with-reinforcement-learning" target="_blank" rel="noopener">
+    
+    Magenta blog
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://www.technologyreview.com/2016/11/30/155729/ai-songsmith-cranks-out-surprisingly-catchy-tunes/" target="_blank" rel="noopener">
+    
+    MIT Tech Review article
+  </a>
+
+</div>
 
 
 </div>
 
 
-  
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 204px;">
+  <div style="position: relative">
+    <img src="/publication/tuning-recurrent-neural-networks-with-reinforcement-learning/featured_hu6eec534c775241d62eca57eae409a37b_112661_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">The approach of training sequence models using supervised learning and next-step prediction suffers from known failure modes. For example, it is notoriously difficult to ensure multi-step generated sequences have coherent global structure. We propose a novel sequence-learning approach in which we use a pre-trained Recurrent Neural Network (RNN) to supply part of the reward value in a Reinforcement Learning (RL) model. Thus, we can refine a sequence predictor by optimizing for some imposed reward functions, while maintaining good predictive properties learned from data. We propose efficient ways to solve this by augmenting deep Q-learning with a cross-entropy reward and deriving novel off-policy methods for RNNs from KL control. We explore the usefulness of our approach in the context of music generation. An LSTM is trained on a large corpus of songs to predict the next note in a musical sequence. This Note-RNN is then refined using our method and rules of music theory. We show that by combining maximum likelihood (ML) and RL in this way, we can not only produce more pleasing melodies, but significantly reduce unwanted behaviors and failure modes of the RNN, while maintaining information learned from data.</p>
     
 
     
@@ -860,7 +921,7 @@
     <div class="media-body">
       <h5 class="card-title">Natasha Jaques</h5>
       
-      <p class="card-text">My research is focused on Social Reinforcement Learning&ndash;developing RL algorithms that use insights from social learning and Affective Computing to improve RL agents' learning, generalization, coordination, and human-AI interaction.</p>
+      <p class="card-text">My research is focused on Social Reinforcement Learning&ndash;developing algorithms that use insights from social learning and Affective Computing to improve AI agents' learning, generalization, coordination, and human-AI interaction.</p>
       <ul class="network-icon" aria-hidden="true">
   
     

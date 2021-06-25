@@ -5,12 +5,20 @@
     <link>/tag/deep-learning/</link>
       <atom:link href="/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 29 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Deep Learning</title>
       <link>/tag/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>Explore and Control with Adversarial Surprise</title>
+      <link>/publication/explore-and-control-with-adversarial-surprise/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/explore-and-control-with-adversarial-surprise/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adversarial Environment Generation for Learning to Navigate the Web</title>
@@ -73,6 +81,22 @@
       <link>/publication/predicting-tomorrows-mood-health-and-stress-level-using-personalized-m/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/publication/predicting-tomorrows-mood-health-and-stress-level-using-personalized-m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Musical Improvisation with Magenta</title>
+      <link>/publication/interactive-musical-improvisation-with-magenta/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/interactive-musical-improvisation-with-magenta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding and Predicting Bonding in Conversations Using Thin Slices of Facial Expressions and Body Language</title>
+      <link>/publication/understanding-and-predicting-bonding-in-conversations-using-thin-slice/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/understanding-and-predicting-bonding-in-conversations-using-thin-slice/</guid>
       <description></description>
     </item>
     
