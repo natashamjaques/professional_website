@@ -41,7 +41,7 @@ tags:
 - Physiology
 - Sensors
 - Machine Learning
-featured: true
+featured: false
 
 links:
 - name: EDA Explorer tool

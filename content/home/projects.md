@@ -27,14 +27,14 @@ content:
   filter_button:
   - name: All
     tag: '*'
+  - name: Affective Computing
+    tag: Affective Computing
+  - name: Social Learning
+    tag: Social Learning
   - name: Multi-Agent
     tag: Multi-Agent
   - name: Emergent Complexity
     tag: Emergent Complexity
-  - name: Social Learning
-    tag: Social Learning
-  - name: Affective Computing
-    tag: Affective Computing
   - name: Cooperation
     tag: Cooperation
   - name: Communication and Language

@@ -31,7 +31,7 @@ tags:
 - Multi-Agent
 - Generalization
 - Reinforcement Learning
-featured: true
+featured: false
 
 links:
 - name: Cooperative AI talk

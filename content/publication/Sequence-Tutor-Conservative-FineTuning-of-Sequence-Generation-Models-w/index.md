@@ -47,7 +47,7 @@ tags:
 - KL-control
 - Reinforcement Learning
 - Machine Learning
-featured: true
+featured: false
 
 links:
 - name: ICML talk

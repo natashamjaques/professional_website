@@ -506,9 +506,6 @@
     <loc>/publication/personality-attitudes-and-bonding-in-conversations/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/picard-r/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/s.-oore/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -540,6 +537,9 @@
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/a.w.-mchill/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/a.z.-yu/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/active-learning/</loc>
@@ -628,7 +628,5 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/post/</loc>
-  </url><url>
-    <loc>/author/yu-a.z.-yu-a./</loc>
   </url>
 </urlset>
