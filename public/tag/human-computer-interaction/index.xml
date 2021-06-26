@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human-Computer Interaction | Natasha Jaques</title>
+    <link>https://natashamjaques.github.io/tag/human-computer-interaction/</link>
+      <atom:link href="https://natashamjaques.github.io/tag/human-computer-interaction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Human-Computer Interaction</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
+      <title>Human-Computer Interaction</title>
+      <link>https://natashamjaques.github.io/tag/human-computer-interaction/</link>
+    </image>
+    
+    <item>
+      <title>BITxBIT: Encouraging Behavior Change with N=2 Experiments</title>
+      <link>https://natashamjaques.github.io/publication/bitxbit-encouraging-behavior-change-with-n2-experiments/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/bitxbit-encouraging-behavior-change-with-n2-experiments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Engaging the workplace with challenges</title>
+      <link>https://natashamjaques.github.io/publication/engaging-the-workplace-with-challenges/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/engaging-the-workplace-with-challenges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmileTracker: Automatically and Unobtrusively Recording Smiles and their Context.</title>
+      <link>https://natashamjaques.github.io/publication/smiletracker-automatically-and-unobtrusively-recording-smiles-and-thei/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/smiletracker-automatically-and-unobtrusively-recording-smiles-and-thei/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

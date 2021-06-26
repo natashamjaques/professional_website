@@ -36,8 +36,7 @@ tags:
 featured: false
 
 links:
-url_pdf: http://www.cs.ubc.ca/~jaquesn/MachineLearningProject.pdf
-url_code: ''
+url_pdf: https://drive.google.com/file/d/1F9X_xhKUYDJwuz9Eql548OlRpUW1M63X/view?usp=sharing
 url_dataset: ''
 url_poster: ''
 url_project: ''

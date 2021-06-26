@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>N. Rhinehart | Natasha Jaques</title>
-    <link>/author/n.-rhinehart/</link>
-      <atom:link href="/author/n.-rhinehart/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://natashamjaques.github.io/author/n.-rhinehart/</link>
+      <atom:link href="https://natashamjaques.github.io/author/n.-rhinehart/index.xml" rel="self" type="application/rss+xml" />
     <description>N. Rhinehart</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
+      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
       <title>N. Rhinehart</title>
-      <link>/author/n.-rhinehart/</link>
+      <link>https://natashamjaques.github.io/author/n.-rhinehart/</link>
     </image>
     
     <item>
       <title>Explore and Control with Adversarial Surprise</title>
-      <link>/publication/explore-and-control-with-adversarial-surprise/</link>
+      <link>https://natashamjaques.github.io/publication/explore-and-control-with-adversarial-surprise/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/explore-and-control-with-adversarial-surprise/</guid>
+      <guid>https://natashamjaques.github.io/publication/explore-and-control-with-adversarial-surprise/</guid>
       <description></description>
     </item>
     

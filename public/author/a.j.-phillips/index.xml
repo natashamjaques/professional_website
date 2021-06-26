@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A.J. Phillips | Natasha Jaques</title>
-    <link>/author/a.j.-phillips/</link>
-      <atom:link href="/author/a.j.-phillips/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://natashamjaques.github.io/author/a.j.-phillips/</link>
+      <atom:link href="https://natashamjaques.github.io/author/a.j.-phillips/index.xml" rel="self" type="application/rss+xml" />
     <description>A.J. Phillips</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
+      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
       <title>A.J. Phillips</title>
-      <link>/author/a.j.-phillips/</link>
+      <link>https://natashamjaques.github.io/author/a.j.-phillips/</link>
     </image>
     
     <item>
       <title>Prediction of happy-sad mood from daily behaviors and previous sleep history</title>
-      <link>/publication/prediction-of-happysad-mood-from-daily-behaviors-and-previous-sleep-hi/</link>
+      <link>https://natashamjaques.github.io/publication/prediction-of-happysad-mood-from-daily-behaviors-and-previous-sleep-hi/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/prediction-of-happysad-mood-from-daily-behaviors-and-previous-sleep-hi/</guid>
+      <guid>https://natashamjaques.github.io/publication/prediction-of-happysad-mood-from-daily-behaviors-and-previous-sleep-hi/</guid>
       <description></description>
     </item>
     

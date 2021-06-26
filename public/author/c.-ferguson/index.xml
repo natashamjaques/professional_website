@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C. Ferguson | Natasha Jaques</title>
-    <link>/author/c.-ferguson/</link>
-      <atom:link href="/author/c.-ferguson/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://natashamjaques.github.io/author/c.-ferguson/</link>
+      <atom:link href="https://natashamjaques.github.io/author/c.-ferguson/index.xml" rel="self" type="application/rss+xml" />
     <description>C. Ferguson</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
+      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
       <title>C. Ferguson</title>
-      <link>/author/c.-ferguson/</link>
+      <link>https://natashamjaques.github.io/author/c.-ferguson/</link>
     </image>
     
     <item>
       <title>Human-Centric Dialog Training via Offline Reinforcement Learning</title>
-      <link>/publication/humancentric-dialog-training-via-offline-reinforcement-learning/</link>
+      <link>https://natashamjaques.github.io/publication/humancentric-dialog-training-via-offline-reinforcement-learning/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/humancentric-dialog-training-via-offline-reinforcement-learning/</guid>
+      <guid>https://natashamjaques.github.io/publication/humancentric-dialog-training-via-offline-reinforcement-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Approximating Interactive Human Evaluation with Self-Play for Open-Domain Dialog Systems</title>
-      <link>/publication/approximating-interactive-human-evaluation-with-selfplay-for-opendomai/</link>
+      <link>https://natashamjaques.github.io/publication/approximating-interactive-human-evaluation-with-selfplay-for-opendomai/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/approximating-interactive-human-evaluation-with-selfplay-for-opendomai/</guid>
+      <guid>https://natashamjaques.github.io/publication/approximating-interactive-human-evaluation-with-selfplay-for-opendomai/</guid>
       <description></description>
     </item>
     

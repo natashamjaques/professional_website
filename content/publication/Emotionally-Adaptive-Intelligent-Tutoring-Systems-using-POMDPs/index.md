@@ -21,10 +21,10 @@ publication_types: ["3"]
 publication: In *Unpublished manuscript* 
 publication_short: In *Unpublished manuscript* 
 
-abstract: 
-# Summary. An optional shortened abstract.
-summary: ''
+abstract: "An emerging field in user-adaptive systems is affect adaptivity: modeling and responding to an estimation of the user’s emotional state. This could be particularly useful in the context of Intelligent Tutoring Systems (ITS), where learning gains are sensitive to the user’s affect. Previous research used an empirically validated Dynamic Bayesian Network (DBN) to create an ITS affect model, but could not plan affect-sensitive responses. This paper will extend this research by con- verting the model into a Partially Observable Markov Decision Process (POMDP) representation, in order to compute a plan of interventions for the ITS agent to take given an estimation of the user’s mood and goals. Two different methods for solv- ing the POMDP will be compared: Incremental Pruning (an exact method) and SARSOP (an approximate method). Factors affecting the tractability of POMDP representations will also be discussed."
 
+# Summary. An optional shortened abstract.
+summary: "An emerging field in user-adaptive systems is affect adaptivity: modeling and responding to an estimation of the user’s emotional state. Prior work used Dynamic Bayesian Networks to obtain adaptivity, but in this paper we represent the problem as a Partially Observable Markov Decision Process (POMDP) and find solutions that compute a plan of interventions for an Intelligent Tutoring System to take given an estimation of the user’s mood and goals."
 tags:
 - Intelligent Tutoring Systems
 - Human-AI Interaction
@@ -34,7 +34,7 @@ tags:
 featured: false
 
 links:
-url_pdf: http://www.cs.ubc.ca/~jaquesn/POMDPPaper.pdf
+url_pdf: https://drive.google.com/file/d/1oKVJwaU0hwSeu1oUWQSH9W29eUj-j_gm/view?usp=sharing
 url_code: ''
 url_dataset: ''
 url_poster: ''

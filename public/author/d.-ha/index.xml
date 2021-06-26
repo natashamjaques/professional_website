@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>D. Ha | Natasha Jaques</title>
-    <link>/author/d.-ha/</link>
-      <atom:link href="/author/d.-ha/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://natashamjaques.github.io/author/d.-ha/</link>
+      <atom:link href="https://natashamjaques.github.io/author/d.-ha/index.xml" rel="self" type="application/rss+xml" />
     <description>D. Ha</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
+      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
       <title>D. Ha</title>
-      <link>/author/d.-ha/</link>
+      <link>https://natashamjaques.github.io/author/d.-ha/</link>
     </image>
     
     <item>
       <title>Learning via Social Awareness: Improving a Deep Generative Sketching Model with Facial Feedback</title>
-      <link>/publication/learning-via-social-awareness-improving-a-deep-generative-sketching-mo/</link>
+      <link>https://natashamjaques.github.io/publication/learning-via-social-awareness-improving-a-deep-generative-sketching-mo/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/learning-via-social-awareness-improving-a-deep-generative-sketching-mo/</guid>
+      <guid>https://natashamjaques.github.io/publication/learning-via-social-awareness-improving-a-deep-generative-sketching-mo/</guid>
       <description></description>
     </item>
     

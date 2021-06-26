@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intrinsic Motivation | Natasha Jaques</title>
-    <link>/tag/intrinsic-motivation/</link>
-      <atom:link href="/tag/intrinsic-motivation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://natashamjaques.github.io/tag/intrinsic-motivation/</link>
+      <atom:link href="https://natashamjaques.github.io/tag/intrinsic-motivation/index.xml" rel="self" type="application/rss+xml" />
     <description>Intrinsic Motivation</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
+      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
       <title>Intrinsic Motivation</title>
-      <link>/tag/intrinsic-motivation/</link>
+      <link>https://natashamjaques.github.io/tag/intrinsic-motivation/</link>
     </image>
     
     <item>
       <title>Explore and Control with Adversarial Surprise</title>
-      <link>/publication/explore-and-control-with-adversarial-surprise/</link>
+      <link>https://natashamjaques.github.io/publication/explore-and-control-with-adversarial-surprise/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/explore-and-control-with-adversarial-surprise/</guid>
+      <guid>https://natashamjaques.github.io/publication/explore-and-control-with-adversarial-surprise/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint Attention for Multi-Agent Coordination and Social Learning</title>
-      <link>/publication/joint-attention-for-multiagent-coordination-and-social-learning/</link>
+      <link>https://natashamjaques.github.io/publication/joint-attention-for-multiagent-coordination-and-social-learning/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/joint-attention-for-multiagent-coordination-and-social-learning/</guid>
+      <guid>https://natashamjaques.github.io/publication/joint-attention-for-multiagent-coordination-and-social-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning</title>
-      <link>/publication/social-influence-as-intrinsic-motivation-for-multiagent-deep-reinforce/</link>
+      <link>https://natashamjaques.github.io/publication/social-influence-as-intrinsic-motivation-for-multiagent-deep-reinforce/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/social-influence-as-intrinsic-motivation-for-multiagent-deep-reinforce/</guid>
+      <guid>https://natashamjaques.github.io/publication/social-influence-as-intrinsic-motivation-for-multiagent-deep-reinforce/</guid>
       <description></description>
     </item>
     

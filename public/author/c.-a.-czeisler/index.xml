@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C. A. Czeisler | Natasha Jaques</title>
-    <link>/author/c.-a.-czeisler/</link>
-      <atom:link href="/author/c.-a.-czeisler/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://natashamjaques.github.io/author/c.-a.-czeisler/</link>
+      <atom:link href="https://natashamjaques.github.io/author/c.-a.-czeisler/index.xml" rel="self" type="application/rss+xml" />
     <description>C. A. Czeisler</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
+      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
       <title>C. A. Czeisler</title>
-      <link>/author/c.-a.-czeisler/</link>
+      <link>https://natashamjaques.github.io/author/c.-a.-czeisler/</link>
     </image>
     
     <item>
       <title>Prediction of happy-sad mood from daily behaviors and previous sleep history</title>
-      <link>/publication/prediction-of-happysad-mood-from-daily-behaviors-and-previous-sleep-hi/</link>
+      <link>https://natashamjaques.github.io/publication/prediction-of-happysad-mood-from-daily-behaviors-and-previous-sleep-hi/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/prediction-of-happysad-mood-from-daily-behaviors-and-previous-sleep-hi/</guid>
+      <guid>https://natashamjaques.github.io/publication/prediction-of-happysad-mood-from-daily-behaviors-and-previous-sleep-hi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recognizing academic performance, sleep quality, stress level, and mental health using personality traits, wearable sensors and mobile phones</title>
-      <link>/publication/recognizing-academic-performance-sleep-quality-stress-level-and-mental/</link>
+      <link>https://natashamjaques.github.io/publication/recognizing-academic-performance-sleep-quality-stress-level-and-mental/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/recognizing-academic-performance-sleep-quality-stress-level-and-mental/</guid>
+      <guid>https://natashamjaques.github.io/publication/recognizing-academic-performance-sleep-quality-stress-level-and-mental/</guid>
       <description></description>
     </item>
     
