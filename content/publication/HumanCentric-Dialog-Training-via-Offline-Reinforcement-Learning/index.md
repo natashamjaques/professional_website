@@ -46,6 +46,8 @@ tags:
 - Affective Computing
 - Offline RL
 - Reinforcement Learning
+- Communication and Language
+- Deep Learning
 featured: true
 
 links:

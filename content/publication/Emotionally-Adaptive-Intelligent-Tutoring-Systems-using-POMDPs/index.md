@@ -29,6 +29,8 @@ tags:
 - Intelligent Tutoring Systems
 - Human-AI Interaction
 - Affective Computing
+- Machine Learning
+- Reinforcement Learning
 featured: false
 
 links:

@@ -41,6 +41,8 @@ tags:
 - Healthcare
 - Physiology
 - Sensors
+- Machine Learning
+- Kernel Methods
 featured: false
 
 links:

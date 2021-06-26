@@ -23,14 +23,16 @@ publication_types: ["3"]
 publication: In *Unpublished manuscript* 
 publication_short: In *Unpublished manuscript* 
 
-abstract: 
+abstract: "Random Forests (RF) and Dropout networks are currently two of the most effective machine learning algorithms available. However, so far a study directly comparing the accuracy of both on the same dataset has not been performed. We hope to fill this gap by testing the classification accuracy of both of these ensemble methods on a novel dataset of American Sign Language (ASL) hand signs collected using the Microsoft Kinect. Results show that dropout nets achieve a higher gesture classification accuracy, particularly as the number of classification labels increases. Further, a neural network trained with dropout outperforms the same net without dropout, demonstrating the effectiveness of the technique. Individual gesture recognition accuracy as well as computation times for both algorithms will be presented."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: We conduct a study in which participants form American Sign Language hand signs while being recorded with a Microsoft Kinect. The resulting infra-red distance data are used to train both neural networks with dropout (dropout NN) and Random Forests; dropout NN perform significantly better.
 
 tags:
 - Gesture Recognition
 - Deep Learning
 - Machine Learning
+- Human-AI Interaction
 featured: false
 
 links:

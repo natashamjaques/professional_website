@@ -10,6 +10,9 @@ main:
   - name: Publications
     url: '#projects'
     weight: 20
+  - name: Topics
+    url: '#tags'
+    weight: 30
   - name: Talks
     url: '#talks'
-    weight: 30
+    weight: 40

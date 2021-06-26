@@ -44,6 +44,7 @@ tags:
 - Affective Computing
 - Generative Models
 - Deep Learning
+- Machine Learning
 featured: false
 
 links:

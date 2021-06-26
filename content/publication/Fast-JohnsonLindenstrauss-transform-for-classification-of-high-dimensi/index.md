@@ -21,17 +21,19 @@ publication_types: ["3"]
 publication: In *Unpublished manuscript* 
 publication_short: In *Unpublished manuscript* 
 
-abstract: 
+abstract: "Classification of high-dimensional data presents many difficulties; not only do classifiers tend to overfit the data, especially when the number of sample points is low, but the computational complexity of many algorithms renders classification of such data prohibitive. Feature reduction techniques such as Principal Component Analysis can help to alleviate these problems, but can themselves be time consuming or ineffective. This paper presents the results of applying an efficient version of the Johnson-Lindenstrauss (JL) embedding known as the fast JL transform in order to reduce the dimensionality of two datasets before classification. We show that this simple random projection technique can offer performance that is highly competitive with existing feature reduction methods, and enable the classification of high-dimensional data using computationally complex algorithms."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: This paper investigates the utility of using the Fast Johnson-Lindenstrauss Transform to produce a low-dimensional random projection of eye-tracking data features that can be used for classifying emotion in an Intelligent Tutoring System. Interestingly, the FJLT provides similar or superior performance to more computationally expensive techniques. 
 
 tags:
 - Machine Learning
 - Compression
+- Affective Computing
 featured: false
 
 links:
-url_pdf: http://www.cs.ubc.ca/~jaquesn/MachineLearningTheory.pdf
+url_pdf: https://drive.google.com/file/d/1qBSWgePvclrjiQMVz2ir4w8wM1cqNU__/view?usp=sharing
 url_code: ''
 url_dataset: ''
 url_poster: ''

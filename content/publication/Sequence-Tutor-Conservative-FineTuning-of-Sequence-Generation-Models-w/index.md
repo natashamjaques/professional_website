@@ -47,6 +47,7 @@ tags:
 - KL-control
 - Reinforcement Learning
 - Machine Learning
+- Deep Learning
 featured: false
 
 links:

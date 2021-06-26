@@ -59,4 +59,4 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
-To find relevant content, try [searching publications](./publication/) or filtering using the buttons below. A * denotes equal contribution.
+To find relevant content, try [searching publications](./publication/), filtering using the buttons below, or exploring [popular topics](#tags). A * denotes equal contribution.

@@ -40,6 +40,7 @@ tags:
 - Physiology
 - Multi-task Learning
 - Machine Learning
+- Kernel Methods
 featured: false
 
 links:

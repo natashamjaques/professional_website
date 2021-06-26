@@ -42,8 +42,6 @@ tags:
 - Healthcare
 - Physiology
 - Machine Learning
-- Kernel Methods
-- Multi-task Learning
 featured: false
 
 links:

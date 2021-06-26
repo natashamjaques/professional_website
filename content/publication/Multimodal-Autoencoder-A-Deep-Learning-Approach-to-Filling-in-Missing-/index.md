@@ -36,6 +36,8 @@ tags:
 - Affective Computing
 - Generalization
 - Healthcare
+- Deep Learning
+- Machine Learning
 featured: false
 
 links:

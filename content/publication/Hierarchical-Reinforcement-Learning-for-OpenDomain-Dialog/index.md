@@ -36,6 +36,10 @@ summary: For the first time, we use hierarchical reinforcement learning to train
 
 tags:
 - Communication and Language
+- Reinforcement Learning
+- Hierarchical Reinforcement Learning
+- Deep Learning
+- Sequence Modeling
 featured: false
 
 links:

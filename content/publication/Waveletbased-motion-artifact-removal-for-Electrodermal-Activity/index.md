@@ -31,15 +31,19 @@ publication_types: ["1"]
 publication: In *International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)* 
 publication_short: In *International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)* 
 
-abstract: 
+abstract: "Electrodermal activity (EDA) recording is a powerful, widely used tool for monitoring psychological or physiological arousal. However, analysis of EDA is hampered by its sensitivity to motion artifacts. We propose a method for removing motion artifacts from EDA, measured as skin conductance (SC), using a stationary wavelet transform (SWT). We modeled the wavelet coefficients as a Gaussian mixture distribution corresponding to the underlying skin conductance level (SCL) and skin conductance responses (SCRs). The goodness-of-fit of the model was validated on ambulatory SC data. We evaluated the proposed method in comparison with three previous approaches. Our method achieved a greater reduction of artifacts while retaining motion-artifact-free data."
+
 # Summary. An optional shortened abstract.
-summary: ''
+summary: We propose a method for removing motion artifacts from Electrodermal Activity using a stationary wavelet transform. We modeled the wavelet coefficients as a Gaussian mixture distribution corresponding to the underlying skin conductance level and skin conductance responses. Our method achieves a greater reduction of artifacts while retaining motion-artifact-free data.
 
 tags:
 - Physiology
 - Sensors
 - Affective Computing
 - Healthcare
+- Signal Processing
+- Electrodermal Activity
+- Machine Learning
 featured: false
 
 links:

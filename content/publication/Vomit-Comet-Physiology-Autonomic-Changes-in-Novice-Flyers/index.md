@@ -39,6 +39,7 @@ tags:
 - Affective Computing
 - Sensors
 - Physiology
+- Machine Learning
 featured: false
 
 links:

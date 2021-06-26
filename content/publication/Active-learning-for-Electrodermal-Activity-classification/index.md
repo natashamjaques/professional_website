@@ -40,6 +40,7 @@ tags:
 - Affective Computing
 - Sensors
 - Machine Learning
+- Electrodermal Activity
 featured: false
 
 links:

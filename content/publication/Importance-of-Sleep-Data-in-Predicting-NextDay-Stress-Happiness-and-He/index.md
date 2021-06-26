@@ -39,6 +39,9 @@ tags:
 - Sensors
 - Physiology
 - Healthcare
+- Machine Learning
+- Hierarchical Bayes
+- Wellbeing
 featured: false
 
 links:

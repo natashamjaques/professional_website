@@ -34,6 +34,9 @@ tags:
 - Communication and Language
 - Affective Computing
 - Human-AI Interaction
+- Machine Learning
+- Psychology
+- Intelligent Virtual Agents
 featured: false
 
 links:

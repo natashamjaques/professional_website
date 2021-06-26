@@ -46,6 +46,7 @@ tags:
 - Communication and Language
 - Intrinsic Motivation
 - Reinforcement Learning
+- Deep Learning
 featured: true
 
 links:
