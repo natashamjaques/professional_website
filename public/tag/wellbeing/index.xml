@@ -5,12 +5,20 @@
     <link>https://natashamjaques.github.io/tag/wellbeing/</link>
       <atom:link href="https://natashamjaques.github.io/tag/wellbeing/index.xml" rel="self" type="application/rss+xml" />
     <description>Wellbeing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
       <title>Wellbeing</title>
       <link>https://natashamjaques.github.io/tag/wellbeing/</link>
     </image>
+    
+    <item>
+      <title>Automatic Triage and Analysis of Online Suicide Risk with Document Embeddings and Latent Dirichlet Allocation</title>
+      <link>https://natashamjaques.github.io/publication/automatic-triage-and-analysis-of-online-suicide-risk-with-document-emb/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/automatic-triage-and-analysis-of-online-suicide-risk-with-document-emb/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Importance of Sleep Data in Predicting Next-Day Stress, Happiness, and Health in College Students</title>
