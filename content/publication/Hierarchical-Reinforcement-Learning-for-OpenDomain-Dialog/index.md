@@ -43,6 +43,8 @@ tags:
 featured: false
 
 links:
+- name: Talk
+  url: https://slideslive.com/38922318/contributed-talk-4-hierarchical-reinforcement-learning-for-opendomain-dialog
 url_pdf: https://arxiv.org/abs/1909.07547
 url_code: https://github.com/natashamjaques/neural_chat/tree/master/HierarchicalRL
 url_dataset: https://affect.media.mit.edu/neural_chat/datasets/reddit_casual_preprocessed.tar.gz

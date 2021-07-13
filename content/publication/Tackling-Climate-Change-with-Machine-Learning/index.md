@@ -72,6 +72,7 @@ tags:
 - Machine Learning
 - Deep Learning
 - Reinforcement Learning
+- Social Good
 featured: false
 
 links:

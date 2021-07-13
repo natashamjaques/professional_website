@@ -55,7 +55,7 @@ url_code: https://github.com/google-research/google-research/tree/master/social_
 url_dataset: ''
 url_poster: https://bit.ly/paired_poster
 url_project: ''
-url_slides: ''
+url_slides: https://docs.google.com/presentation/d/1uQDmktf0PWNCFlliWLfPx-j4BtuhWNypONuYaQzzTXo/edit?usp=sharing
 url_source: ''
 url_video: ''
 

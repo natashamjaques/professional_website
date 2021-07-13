@@ -58,7 +58,7 @@ url_code: https://github.com/natashamjaques/neural_chat
 url_dataset: https://affect.media.mit.edu/neural_chat/datasets/reddit_casual_preprocessed.tar.gz
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: https://docs.google.com/presentation/d/1xd1ce8qiVlIorJoXylEWMLwLlMiqyLyAUMe1qhcVKO8/edit?usp=sharing
 url_source: ''
 url_video: ''
 

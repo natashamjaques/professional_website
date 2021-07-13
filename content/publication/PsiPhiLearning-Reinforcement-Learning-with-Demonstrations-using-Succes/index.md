@@ -42,14 +42,17 @@ tags:
 - Generalization
 - Reinforcement Learning
 - Successor Features
+- Deep Learning
 featured: false
 
 links:
+- name: ICML talk
+  url: https://www.youtube.com/watch?v=8aHElAZB5uo
 url_pdf: https://arxiv.org/pdf/2102.12560.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: https://sites.google.com/view/psiphi-learning
 url_slides: ''
 url_source: ''
 url_video: ''

@@ -46,7 +46,8 @@ ALREADY_ADDED = ["Emergent Social Learning via Multi-agent Reinforcement Learnin
 				 "Multi-task Learning for Predicting Health, Stress, and Happiness",
 				 "Personalized Multitask Learning for Predicting Tomorrow's Mood, Stress, and Health",
 				 "Predicting students' happiness from physiology, phone, mobility, and behavioral data",
-				 "Interactive Musical Improvisation with Magenta"]
+				 "Interactive Musical Improvisation with Magenta",
+				 "Predicting Affect in an Intelligent Tutoring System"]
 
 
 class Author:

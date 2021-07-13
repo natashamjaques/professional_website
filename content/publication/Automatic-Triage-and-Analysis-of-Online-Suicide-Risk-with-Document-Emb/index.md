@@ -39,6 +39,7 @@ tags:
 - Machine Learning
 - Healthcare
 - Deep Learning
+- Wellbeing
 featured: false
 
 links:

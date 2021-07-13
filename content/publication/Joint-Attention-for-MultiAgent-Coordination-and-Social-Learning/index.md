@@ -49,7 +49,7 @@ links:
 url_pdf: https://arxiv.org/abs/2104.07750
 url_code: https://github.com/google-research/google-research/tree/master/social_rl/multiagent_tfagents/joint_attention
 url_dataset: ''
-url_poster: https://docs.google.com/presentation/d/1PIyqm8A8Ysu3xY8dW-9a0lY7rmZAa6xEjc-vD4rdJjw/edit?usp=sharing
+url_poster: https://drive.google.com/file/d/1Dq0kQUgSAzyj601n8CCC1u_8ecrypLPv/view?usp=sharing
 url_project: ''
 url_slides: ''
 url_source: ''

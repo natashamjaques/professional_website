@@ -48,12 +48,14 @@ tags:
 featured: false
 
 links:
+- name: Quartz article
+  url: https://qz.com/1209466/google-is-building-ai-to-make-humans-smile/
 url_pdf: https://arxiv.org/pdf/1802.04877.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: https://www.slideshare.net/lubaelliott/natasha-jaques-learning-via-social-awareness-creative-ai-meetup
 url_source: ''
 url_video: ''
 

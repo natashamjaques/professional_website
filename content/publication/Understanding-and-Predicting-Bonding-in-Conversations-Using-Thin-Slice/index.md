@@ -4,7 +4,7 @@ authors:
 - admin
 - D. McDuff
 - Y. K. Kim
-- \& Picard R. Picard R
+- R. Picard
 date: "2016-01-01T00:00:00Z"
 doi: ""
 

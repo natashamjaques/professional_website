@@ -40,6 +40,8 @@ featured: false
 links:
 - name: Boston Magazine article
   url: https://www.bostonmagazine.com/news/2015/01/05/smiletracker-captures-photos-internet/
+- name: CBC news
+  url: https://www.cbc.ca/news/canada/saskatchewan/regina-woman-develops-smile-app-at-mit-1.2886943
 url_pdf: https://affect.media.mit.edu/pdfs/15.jaques-chen-picard-CHI.pdf
 url_code: ''
 url_dataset: ''

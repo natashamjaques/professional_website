@@ -61,9 +61,9 @@ links:
 url_pdf: https://arxiv.org/pdf/1810.08647.pdf
 url_code: ''
 url_dataset: ''
-url_poster: ''
+url_poster: https://drive.google.com/file/d/1itGMdTbCIkmK8uetNuW91RflWMeAs1q6/view?usp=sharing
 url_project: ''
-url_slides: ''
+url_slides: https://docs.google.com/presentation/d/1g-H9WAXWf-VL_yNhW3-b260Kh5w-MPFw00LTU9mk3Q8/edit?usp=sharing
 url_source: ''
 url_video: ''
 

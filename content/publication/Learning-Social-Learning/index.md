@@ -37,12 +37,14 @@ featured: false
 links:
 - name: Cooperative AI talk
   url: https://slideslive.com/38938232/learning-social-learning?ref=account-folder-62099-folders
+- name: ICML talk
+  url: https://www.youtube.com/watch?v=UctYVUn01ZA
 url_pdf: https://arxiv.org/abs/2010.00581
 url_code: https://github.com/kandouss/marlgrid
 url_dataset: ''
-url_poster: ''
+url_poster: https://drive.google.com/file/d/1cIggGDJeFrKc3GrVELNgGxqj4UuMd-GE/view?usp=sharing
 url_project: ''
-url_slides: ''
+url_slides: https://docs.google.com/presentation/d/1iQcqofu-_MLi9v21KoZR7Hb-PAsY15y29-4JYnMXoLc/edit?usp=sharing
 url_source: ''
 url_video: ''
 

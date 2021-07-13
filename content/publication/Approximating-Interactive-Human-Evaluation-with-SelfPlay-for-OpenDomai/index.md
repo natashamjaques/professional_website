@@ -51,7 +51,7 @@ links:
 url_pdf: https://arxiv.org/abs/1906.09308
 url_code: https://github.com/natashamjaques/neural_chat
 url_dataset: https://affect.media.mit.edu/neural_chat/datasets/reddit_casual_preprocessed.tar.gz
-url_poster: ''
+url_poster: https://drive.google.com/file/d/1Wr6n5KB9GDWUQun5TWrWjH7I1wrtXY28/view?usp=sharing
 url_project: ''
 url_slides: ''
 url_source: ''

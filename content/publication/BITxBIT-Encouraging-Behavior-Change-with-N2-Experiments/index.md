@@ -46,7 +46,7 @@ featured: false
 
 links:
 url_pdf: http://affect.media.mit.edu/pdfs/16.Jaques-etal-CHI.pdf
-url_code: ''
+url_code: https://github.com/Viral-MediaLab/BitByBit
 url_dataset: ''
 url_poster: ''
 url_project: ''

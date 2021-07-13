@@ -38,6 +38,7 @@ tags:
 - Healthcare
 - Deep Learning
 - Machine Learning
+- Sensors
 featured: false
 
 links:
@@ -46,7 +47,7 @@ url_code: https://github.com/natashamjaques/MultimodalAutoencoder
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: https://docs.google.com/presentation/d/1sgi43eHeWNVIx-NlVfRsR4U0eWIjjAKYtW6lgFHQngw/edit?usp=sharing
 url_source: ''
 url_video: ''
 
