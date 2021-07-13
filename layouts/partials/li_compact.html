@@ -74,7 +74,7 @@
       {{ end }}
 
     </div>
-    <div class="col col col-sm-12 col-lg-4 col-md-5 ml-3">
+    <div class="col col col-sm-12 col-lg-4 col-md-5 ml-3 mb-3">
       {{ $resource := ($item.Resources.ByType "image").GetMatch "*compact*" }}
       {{ with $resource }}
       {{ $image := .Resize ("300x") }}
