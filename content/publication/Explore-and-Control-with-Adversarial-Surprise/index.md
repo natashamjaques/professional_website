@@ -49,11 +49,11 @@ tags:
 featured: false
 
 links:
-url_pdf: 
-url_code: ''
+url_pdf: https://arxiv.org/abs/2107.07394
+url_code: https://github.com/ArnaudFickinger/adversarial-surprise
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: https://sites.google.com/view/adversarial-surprise/home
 url_slides: ''
 url_source: ''
 url_video: ''
