@@ -9,10 +9,10 @@ widget: accomplishments
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 20
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
+title: 'News'
 subtitle:
 
 # Date format
@@ -25,14 +25,14 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://www.coursera.org
+- certificate_url: https://c3dti.ai/
   date_end: ""
-  date_start: "2021-01-25"
-  description: ""
-  organization: Coursera
-  organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
-  url: ""
+  date_start: "2021-06-10"
+  description: "Our Energy and Climate grant proposal \"Offline Reinforcement Learning for Energy-Efficient Power Grids\" was funded by C3.ai."
+  organization: C3.ai
+  organization_url: https://c3dti.ai/
+  title: Received grant from by C3.ai Digital Transformation Institute
+  url: https://c3dti.ai/c3-announces-energy-climate-awards/
 - certificate_url: https://www.edx.org
   date_end: ""
   date_start: "2021-01-01"
