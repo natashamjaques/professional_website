@@ -19,3 +19,6 @@ main:
   - name: Talks
     url: '#talks'
     weight: 40
+  - name: Research Communities
+    url: '#communities'
+    weight: 75

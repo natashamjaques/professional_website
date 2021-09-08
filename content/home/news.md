@@ -41,7 +41,6 @@ design:
   view: 2 -->
 ---
 * Our paper [Personalized Multitask Learning for Predicting Tomorrow's Mood, Stress, and Health](./publication/personalized-multitask-learning-for-predicting-tomorrows-mood-stress-a/) was awarded the **Best of IEEE Transactions on Affective Computing Paper Collection** ([journal impact factor: 10.5](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369)).
-* As organizer of the [NeurIPS 2021 Cooperative AI workshop](https://www.cooperativeai.com/neurips-2021/workshop-information), I am organizing a mentorship program to provide feedback on submissions to students from underrepresented groups. [Applications are open](https://www.cooperativeai.com/neurips-2021/workshop-information#h.ssihuuiopnhu)! 
 * Our grant proposal [Offline Reinforcement Learning for Energy-Efficient Power Grids](https://c3dti.ai/c3-announces-energy-climate-awards/) was **funded by C3.ai Digital Transformation Institute** AI for Energy and Climate Security Awards.
 * An article about [PAIRED](./publication/paired/) was published in [**Science Magazine**](https://www.sciencemag.org/news/2021/01/who-needs-teacher-artificial-intelligence-designs-lesson-plans-itself).
 * Our work on [Emergent Social Learning](./publication/learning-social-learning/) received [**Best Paper** at the NeurIPS 2020 Cooperative AI workshop](https://www.cooperativeai.com/neurips-2020/workshop-papers).
