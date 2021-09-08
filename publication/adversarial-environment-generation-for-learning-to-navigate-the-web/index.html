@@ -1,15 +1,275 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.2.0 for Hugo"><meta name=author content="Natasha Jaques"><meta name=description content="We analyze and improve upon PAIRED in the case of learning to generate challenging compositional tasks. We apply our improved algorithm to generating a curriculum of novel websites, in order to train RL agents that can navigate web pages."><link rel=alternate hreflang=en-us href=https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/><link rel=preconnect href=https://fonts.gstatic.com crossorigin><meta name=theme-color content="#1565c0"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'"><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'"><link rel=stylesheet href=/css/wowchemy.4aace023fb5b572c1b1b57368af1a441.css><link rel=manifest href=/index.webmanifest><link rel=icon type=image/png href=/media/icon_hua64261c49917fe48d46061d344453b21_144873_32x32_fill_lanczos_center_2.png><link rel=apple-touch-icon type=image/png href=/media/icon_hua64261c49917fe48d46061d344453b21_144873_180x180_fill_lanczos_center_2.png><link rel=canonical href=https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/><meta property="twitter:card" content="summary_large_image"><meta property="og:site_name" content="Natasha Jaques"><meta property="og:url" content="https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/"><meta property="og:title" content="Adversarial Environment Generation for Learning to Navigate the Web | Natasha Jaques"><meta property="og:description" content="We analyze and improve upon PAIRED in the case of learning to generate challenging compositional tasks. We apply our improved algorithm to generating a curriculum of novel websites, in order to train RL agents that can navigate web pages."><meta property="og:image" content="https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/featured.png"><meta property="twitter:image" content="https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/featured.png"><meta property="og:locale" content="en-us"><meta property="article:published_time" content="2021-05-30T00:00:00+00:00"><meta property="article:modified_time" content="2021-05-29T00:00:00+00:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/"},"headline":"Adversarial Environment Generation for Learning to Navigate the Web","image":["https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/featured.png"],"datePublished":"2021-05-30T00:00:00Z","dateModified":"2021-05-29T00:00:00Z","author":{"@type":"Person","name":"I. Gur"},"publisher":{"@type":"Organization","name":"Natasha Jaques","logo":{"@type":"ImageObject","url":"https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_192x192_fill_lanczos_center_2.png"}},"description":"We analyze and improve upon PAIRED in the case of learning to generate challenging compositional tasks. We apply our improved algorithm to generating a curriculum of novel websites, in order to train RL agents that can navigate web pages."}</script><title>Adversarial Environment Generation for Learning to Navigate the Web | Natasha Jaques</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=bed47c6de594014b8cb4a49de02be014><script src=/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class=page-header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/>Natasha Jaques</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
-<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/>Natasha Jaques</a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/#featured><span>Featured</span></a></li><li class=nav-item><a class=nav-link href=/#projects><span>Publications</span></a></li><li class=nav-item><a class=nav-link href=/#tags><span>Topics</span></a></li><li class=nav-item><a class=nav-link href=/#talks><span>Talks</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class="nav-item d-none d-lg-inline-flex"><a class=nav-link href=https://twitter.com/natashajaques data-toggle=tooltip data-placement=bottom title=Twitter target=_blank rel=noopener aria-label=Twitter><i class="fab fa-twitter" aria-hidden=true></i></a></li><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences"><i class="fas fa-moon" aria-hidden=true></i></a><div class=dropdown-menu><a href=# class="dropdown-item js-set-theme-light"><span>Light</span></a>
-<a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
-<a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav></div><div class=page-body><div class=pub><div class="article-container pt-3"><h1>Adversarial Environment Generation for Learning to Navigate the Web</h1><div class=article-metadata><div><span>I. Gur</span>, <span class=author-highlighted>Natasha Jaques</span>, <span>K. Malta</span>, <span>M. Tiwari</span>, <span>H. Lee</span>, <span>A. Faust</span></div><span class=article-date>2021</span></div><div class="btn-links mb-3"><a class="btn btn-outline-primary btn-page-header" href=https://arxiv.org/abs/2103.01991 target=_blank rel=noopener>PDF</a>
-<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/cite.bib>Cite</a></div></div><div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:362px><div style=position:relative><img src=/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/featured_hu641e76c58c66f39ef71ea58751d1bf04_190954_720x0_resize_lanczos_2.png alt class=featured-image></div></div><div class=article-container><h3>Abstract</h3><p class=pub-abstract>Learning to autonomously navigate the web is a difficult sequential decision making task. The state and action spaces are large and combinatorial in nature, and websites are dynamic environments consisting of several pages. One of the bottlenecks of training web navigation agents is providing a learnable curriculum of training environments that can cover the large variety of real-world websites. Therefore, we propose using Adversarial Environment Generation (AEG) to generate challenging web environments in which to train reinforcement learning (RL) agents. We provide a new benchmarking environment, gMiniWoB, which enables an RL adversary to use compositional primitives to learn to generate arbitrarily complex websites. To train the adversary, we propose a new technique for maximizing regret using the difference in the scores obtained by a pair of navigator agents. Our results show that our approach significantly outperforms prior methods for minimax regret AEG. The regret objective trains the adversary to design a curriculum of environments that are &ldquo;just-the-right-challenge&rdquo; for the navigator agents; our results show that over time, the adversary learns to generate increasingly complex web navigation tasks. The navigator agents trained with our technique learn to complete challenging, high-dimensional web navigation tasks, such as form filling, booking a flight etc. We show that the navigator agent trained with our proposed Flexible b-PAIRED technique significantly outperforms competitive automatic curriculum generation baselines &ndash; including a state-of-the-art RL web navigation approach &ndash; on a set of challenging unseen test environments, and achieves more than 80% success rate on some tasks.</p><div class=row><div class=col-md-1></div><div class=col-md-10><div class=row><div class="col-12 col-md-3 pub-row-heading">Type</div><div class="col-12 col-md-9"><a href=/publication/#3>Preprint</a></div></div></div><div class=col-md-1></div></div><div class="d-md-none space-below"></div><div class=row><div class=col-md-1></div><div class=col-md-10><div class=row><div class="col-12 col-md-3 pub-row-heading">Publication</div><div class="col-12 col-md-9">In <em>Neural Information Processing Systems (NeurIPS) (submitted)</em></div></div></div><div class=col-md-1></div></div><div class="d-md-none space-below"></div><div class=space-below></div><div class=article-style></div><div class=article-tags><a class="badge badge-light" href=/tag/emergent-complexity/>Emergent Complexity</a>
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=generator content="Wowchemy 5.2.0 for Hugo">
+<meta name=author content="Natasha Jaques">
+<meta name=description content="We analyze and improve upon PAIRED in the case of learning to generate challenging compositional tasks. We apply our improved algorithm to generating a curriculum of novel websites, in order to train RL agents that can navigate web pages.">
+<link rel=alternate hreflang=en-us href=https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<meta name=theme-color content="#1565c0">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'">
+<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
+<link rel=stylesheet href=/css/wowchemy.4aace023fb5b572c1b1b57368af1a441.css>
+<link rel=manifest href=/index.webmanifest>
+<link rel=icon type=image/png href=/media/icon_hua64261c49917fe48d46061d344453b21_144873_32x32_fill_lanczos_center_3.png>
+<link rel=apple-touch-icon type=image/png href=/media/icon_hua64261c49917fe48d46061d344453b21_144873_180x180_fill_lanczos_center_3.png>
+<link rel=canonical href=https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/>
+<meta property="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Natasha Jaques">
+<meta property="og:url" content="https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/">
+<meta property="og:title" content="Adversarial Environment Generation for Learning to Navigate the Web | Natasha Jaques">
+<meta property="og:description" content="We analyze and improve upon PAIRED in the case of learning to generate challenging compositional tasks. We apply our improved algorithm to generating a curriculum of novel websites, in order to train RL agents that can navigate web pages."><meta property="og:image" content="https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/featured.png">
+<meta property="twitter:image" content="https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/featured.png"><meta property="og:locale" content="en-us">
+<meta property="article:published_time" content="2021-05-30T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-05-29T00:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/"},"headline":"Adversarial Environment Generation for Learning to Navigate the Web","image":["https://natashamjaques.github.io/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/featured.png"],"datePublished":"2021-05-30T00:00:00Z","dateModified":"2021-05-29T00:00:00Z","author":{"@type":"Person","name":"I. Gur"},"publisher":{"@type":"Organization","name":"Natasha Jaques","logo":{"@type":"ImageObject","url":"https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_192x192_fill_lanczos_center_3.png"}},"description":"We analyze and improve upon PAIRED in the case of learning to generate challenging compositional tasks. We apply our improved algorithm to generating a curriculum of novel websites, in order to train RL agents that can navigate web pages."}</script>
+<title>Adversarial Environment Generation for Learning to Navigate the Web | Natasha Jaques</title>
+</head>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=bed47c6de594014b8cb4a49de02be014>
+<script src=/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js></script>
+<aside class=search-modal id=search>
+<div class=container>
+<section class=search-header>
+<div class="row no-gutters justify-content-between mb-3">
+<div class=col-6>
+<h1>Search</h1>
+</div>
+<div class="col-6 col-search-close">
+<a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
+</div>
+</div>
+<div id=search-box>
+<input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...>
+</div>
+</section>
+<section class=section-search-results>
+<div id=search-hits>
+</div>
+</section>
+</div>
+</aside>
+<div class=page-header>
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
+<div class=container-xl>
+<div class="d-none d-lg-inline-flex">
+<a class=navbar-brand href=/>Natasha Jaques</a>
+</div>
+<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span>
+</button>
+<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+<a class=navbar-brand href=/>Natasha Jaques</a>
+</div>
+<div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
+<ul class="navbar-nav d-md-inline-flex">
+<li class=nav-item>
+<a class=nav-link href=/#news><span>News</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#featured><span>Featured</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#projects><span>Publications</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#tags><span>Topics</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#talks><span>Talks</span></a>
+</li>
+</ul>
+</div>
+<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+<li class="nav-item d-none d-lg-inline-flex">
+<a class=nav-link href=https://twitter.com/natashajaques data-toggle=tooltip data-placement=bottom title=Twitter target=_blank rel=noopener aria-label=Twitter>
+<i class="fab fa-twitter" aria-hidden=true></i>
+</a>
+</li>
+<li class=nav-item>
+<a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a>
+</li>
+<li class="nav-item dropdown theme-dropdown">
+<a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences">
+<i class="fas fa-moon" aria-hidden=true></i>
+</a>
+<div class=dropdown-menu>
+<a href=# class="dropdown-item js-set-theme-light">
+<span>Light</span>
+</a>
+<a href=# class="dropdown-item js-set-theme-dark">
+<span>Dark</span>
+</a>
+<a href=# class="dropdown-item js-set-theme-auto">
+<span>Automatic</span>
+</a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class=page-body>
+<div class=pub>
+<div class="article-container pt-3">
+<h1>Adversarial Environment Generation for Learning to Navigate the Web</h1>
+<div class=article-metadata>
+<div>
+<span>I. Gur</span>, <span class=author-highlighted>Natasha Jaques</span>, <span>K. Malta</span>, <span>M. Tiwari</span>, <span>H. Lee</span>, <span>A. Faust</span>
+</div>
+<span class=article-date>
+2021
+</span>
+</div>
+<div class="btn-links mb-3">
+<a class="btn btn-outline-primary btn-page-header" href=https://arxiv.org/abs/2103.01991 target=_blank rel=noopener>
+PDF
+</a>
+<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/cite.bib>
+Cite
+</a>
+</div>
+</div>
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:362px>
+<div style=position:relative>
+<img src=/publication/adversarial-environment-generation-for-learning-to-navigate-the-web/featured_hu641e76c58c66f39ef71ea58751d1bf04_190954_720x0_resize_lanczos_3.png alt class=featured-image>
+</div>
+</div>
+<div class=article-container>
+<h3>Abstract</h3>
+<p class=pub-abstract>Learning to autonomously navigate the web is a difficult sequential decision making task. The state and action spaces are large and combinatorial in nature, and websites are dynamic environments consisting of several pages. One of the bottlenecks of training web navigation agents is providing a learnable curriculum of training environments that can cover the large variety of real-world websites. Therefore, we propose using Adversarial Environment Generation (AEG) to generate challenging web environments in which to train reinforcement learning (RL) agents. We provide a new benchmarking environment, gMiniWoB, which enables an RL adversary to use compositional primitives to learn to generate arbitrarily complex websites. To train the adversary, we propose a new technique for maximizing regret using the difference in the scores obtained by a pair of navigator agents. Our results show that our approach significantly outperforms prior methods for minimax regret AEG. The regret objective trains the adversary to design a curriculum of environments that are &ldquo;just-the-right-challenge&rdquo; for the navigator agents; our results show that over time, the adversary learns to generate increasingly complex web navigation tasks. The navigator agents trained with our technique learn to complete challenging, high-dimensional web navigation tasks, such as form filling, booking a flight etc. We show that the navigator agent trained with our proposed Flexible b-PAIRED technique significantly outperforms competitive automatic curriculum generation baselines &ndash; including a state-of-the-art RL web navigation approach &ndash; on a set of challenging unseen test environments, and achieves more than 80% success rate on some tasks.</p>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Type</div>
+<div class="col-12 col-md-9">
+<a href=/publication/#3>
+Preprint
+</a>
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Publication</div>
+<div class="col-12 col-md-9">In <em>Neural Information Processing Systems (NeurIPS) (submitted)</em></div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=space-below></div>
+<div class=article-style></div>
+<div class=article-tags>
+<a class="badge badge-light" href=/tag/emergent-complexity/>Emergent Complexity</a>
 <a class="badge badge-light" href=/tag/multi-agent/>Multi-Agent</a>
 <a class="badge badge-light" href=/tag/generalization/>Generalization</a>
 <a class="badge badge-light" href=/tag/reinforcement-learning/>Reinforcement Learning</a>
 <a class="badge badge-light" href=/tag/deep-learning/>Deep Learning</a>
-<a class="badge badge-light" href=/tag/web-navigation/>Web Navigation</a></div><div class="media author-card content-widget-hr"><a href=https://natashamjaques.github.io/><img class="avatar mr-3 avatar-circle" src=/author/natasha-jaques/avatar_hu6e0b3d3a5886c72ee9eb657e72f07cfe_691297_270x270_fill_lanczos_center_2.png alt="Natasha Jaques"></a><div class=media-body><h5 class=card-title><a href=https://natashamjaques.github.io/>Natasha Jaques</a></h5><p class=card-text>My research is focused on Social Reinforcement Learning&ndash;developing algorithms that use insights from social learning and Affective Computing to improve AI agents' learning, generalization, coordination, and human-AI interaction.</p><ul class=network-icon aria-hidden=true><li><a href=mailto:natashamjaques@gmail.com><i class="fas fa-envelope"></i></a></li><li><a href=https://twitter.com/natashajaques target=_blank rel=noopener><i class="fab fa-twitter"></i></a></li><li><a href="https://scholar.google.com/citations?hl=en&user=8iCb2TwAAAAJ" target=_blank rel=noopener><i class="fas fa-graduation-cap"></i></a></li><li><a href=https://github.com/natashamjaques target=_blank rel=noopener><i class="fab fa-github"></i></a></li><li><a href=/uploads/cv_natasha_jaques.pdf><i class="fas fa-download"></i></a></li></ul></div></div><div class="article-widget content-widget-hr"><h3>Related</h3><ul><li><a href=/publication/paired/>Emergent Complexity and Zero-shot Transfer via Unsupervised Environment Design</a></li><li><a href=/publication/learning-social-learning/>Learning Social Learning</a></li><li><a href=/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/>PsiPhi-Learning: Reinforcement Learning with Demonstrations using Successor Features and Inverse Temporal Difference Learning</a></li><li><a href=/publication/explore-and-control-with-adversarial-surprise/>Explore and Control with Adversarial Surprise</a></li><li><a href=/publication/social-and-affective-machine-learning/>Social and Affective Machine Learning</a></li></ul></div></div></div></div><div class=page-footer><div class=container><footer class=site-footer><p class=powered-by>Built using <a href=https://gohugo.io target=_blank rel=noopener>Hugo</a> and the <a href=https://github.com/wowchemy/starter-hugo-academic target=_blank rel=noopener>Wowchemy academic template</a>. View <a href=https://github.com/natashamjaques/professional_website target=_blank rel=noopener>source</a>.</p></footer></div></div><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code class="tex hljs"></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i> Copy</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i> Download</a><div id=modal-error></div></div></div></div></div><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin=anonymous></script><script id=search-hit-fuse-template type=text/x-template>
+<a class="badge badge-light" href=/tag/web-navigation/>Web Navigation</a>
+</div>
+<div class="media author-card content-widget-hr">
+<a href=https://natashamjaques.github.io/><img class="avatar mr-3 avatar-circle" src=/author/natasha-jaques/avatar_hu6e0b3d3a5886c72ee9eb657e72f07cfe_691297_270x270_fill_lanczos_center_3.png alt="Natasha Jaques"></a>
+<div class=media-body>
+<h5 class=card-title><a href=https://natashamjaques.github.io/>Natasha Jaques</a></h5>
+<p class=card-text>My research is focused on Social Reinforcement Learning&ndash;developing algorithms that use insights from social learning and Affective Computing to improve AI agents' learning, generalization, coordination, and human-AI interaction.</p>
+<ul class=network-icon aria-hidden=true>
+<li>
+<a href=mailto:natashamjaques@gmail.com>
+<i class="fas fa-envelope"></i>
+</a>
+</li>
+<li>
+<a href=https://twitter.com/natashajaques target=_blank rel=noopener>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://scholar.google.com/citations?hl=en&user=8iCb2TwAAAAJ" target=_blank rel=noopener>
+<i class="fas fa-graduation-cap"></i>
+</a>
+</li>
+<li>
+<a href=https://github.com/natashamjaques target=_blank rel=noopener>
+<i class="fab fa-github"></i>
+</a>
+</li>
+<li>
+<a href=/uploads/cv_natasha_jaques.pdf>
+<i class="fas fa-download"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="article-widget content-widget-hr">
+<h3>Related</h3>
+<ul>
+<li><a href=/publication/paired/>Emergent Complexity and Zero-shot Transfer via Unsupervised Environment Design</a></li>
+<li><a href=/publication/learning-social-learning/>Learning Social Learning</a></li>
+<li><a href=/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/>PsiPhi-Learning: Reinforcement Learning with Demonstrations using Successor Features and Inverse Temporal Difference Learning</a></li>
+<li><a href=/publication/explore-and-control-with-adversarial-surprise/>Explore and Control with Adversarial Surprise</a></li>
+<li><a href=/publication/social-and-affective-machine-learning/>Social and Affective Machine Learning</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class=page-footer>
+<div class=container>
+<footer class=site-footer>
+<p class=powered-by>
+Built using <a href=https://gohugo.io target=_blank rel=noopener>Hugo</a> and the <a href=https://github.com/wowchemy/starter-hugo-academic target=_blank rel=noopener>Wowchemy academic template</a>. View <a href=https://github.com/natashamjaques/professional_website target=_blank rel=noopener>source</a>.
+</p>
+</footer>
+</div>
+</div>
+<div id=modal class="modal fade" role=dialog>
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title>Cite</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span>
+</button>
+</div>
+<div class=modal-body>
+<pre><code class="tex hljs"></code></pre>
+</div>
+<div class=modal-footer>
+<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
+<i class="fas fa-copy"></i> Copy
+</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
+<i class="fas fa-download"></i> Download
+</a>
+<div id=modal-error></div>
+</div>
+</div>
+</div>
+</div>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin=anonymous></script>
+<script id=search-hit-fuse-template type=text/x-template>
         <div class="search-hit" id="summary-{{key}}">
           <div class="search-hit-content">
             <div class="search-hit-name">
@@ -19,4 +279,11 @@
             </div>
           </div>
         </div>
-      </script><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script><script src=/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js></script><script src=/en/js/wowchemy.min.8626d678bd286b6b2b19961df891e128.js></script><script async defer src=https://buttons.github.io/buttons.js></script></body></html>
+      </script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script>
+<script src=/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js></script>
+<script src=/en/js/wowchemy.min.4bba0826db6409c865d2e7b99039d6d0.js></script>
+<script async defer src=https://buttons.github.io/buttons.js></script>
+</body>
+</html>
