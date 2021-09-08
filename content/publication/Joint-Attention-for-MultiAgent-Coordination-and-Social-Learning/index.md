@@ -53,7 +53,7 @@ url_poster: https://drive.google.com/file/d/1Dq0kQUgSAzyj601n8CCC1u_8ecrypLPv/vi
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: https://www.youtube.com/watch?v=v3PXnGQ_tYI
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

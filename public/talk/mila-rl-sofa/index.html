@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="This talk covers &#34;Mechanisms for Generalized Machine Learning Across Tasks and Environments&#34;, including a KL-control technique for combining reinforcement and supervised learning, and describes how to apply it to the problem of drug discovery." />
+  <meta name="description" content="This talk focuses on how social learning from other agents can lead to learning more complex behaviors and enhance generalization. I discuss recent work on emergent social learning and PsiPhi-Learning in detail." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://natashamjaques.github.io/talk/broad-institute-models-inference-and-algorithms-mia-seminar/" />
+  <link rel="alternate" hreflang="en-us" href="https://natashamjaques.github.io/talk/mila-rl-sofa/" />
 
   
 
@@ -282,7 +282,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hua64261c49917fe48d46061d344453b21_144873_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua64261c49917fe48d46061d344453b21_144873_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="https://natashamjaques.github.io/talk/broad-institute-models-inference-and-algorithms-mia-seminar/" />
+  <link rel="canonical" href="https://natashamjaques.github.io/talk/mila-rl-sofa/" />
 
   
   
@@ -293,16 +293,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Natasha Jaques" />
-  <meta property="og:url" content="https://natashamjaques.github.io/talk/broad-institute-models-inference-and-algorithms-mia-seminar/" />
-  <meta property="og:title" content="Broad Institute Models, Inference, and Algorithms (MIA) Seminar | Natasha Jaques" />
-  <meta property="og:description" content="This talk covers &#34;Mechanisms for Generalized Machine Learning Across Tasks and Environments&#34;, including a KL-control technique for combining reinforcement and supervised learning, and describes how to apply it to the problem of drug discovery." /><meta property="og:image" content="https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://natashamjaques.github.io/talk/mila-rl-sofa/" />
+  <meta property="og:title" content="MILA RL Sofa | Natasha Jaques" />
+  <meta property="og:description" content="This talk focuses on how social learning from other agents can lead to learning more complex behaviors and enhance generalization. I discuss recent work on emergent social learning and PsiPhi-Learning in detail." /><meta property="og:image" content="https://natashamjaques.github.io/talk/mila-rl-sofa/featured.png" />
+    <meta property="twitter:image" content="https://natashamjaques.github.io/talk/mila-rl-sofa/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -310,7 +309,7 @@
         content="2017-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2019-05-01T13:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-07-09T13:00:00&#43;00:00">
   
 
   
@@ -329,26 +328,21 @@
   "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://natashamjaques.github.io/talk/broad-institute-models-inference-and-algorithms-mia-seminar/"
+    "@id": "https://natashamjaques.github.io/talk/mila-rl-sofa/"
   },
-  "name": "Broad Institute Models, Inference, and Algorithms (MIA) Seminar",
+  "name": "MILA RL Sofa",
   
   "location": {
     "@type": "Place",
-    "name": "Broad Institute",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "415 Main St",
-      "addressLocality": "Cambridge",
-      "postalCode": "02142",
-      "addressRegion": "MA",
-      "addressCountry": "United States"
-    }
-    
+    "name": "Montreal Institute of Learning Algorithms (MILA)"
   },
   
   
-  "startDate": "2019-05-01T13:00:00Z",
+  "image": [
+    "https://natashamjaques.github.io/talk/mila-rl-sofa/featured.png"
+  ],
+  
+  "startDate": "2021-07-09T13:00:00Z",
   
   
   "performer": {
@@ -356,7 +350,7 @@
     "name": "Natasha Jaques"
   },
   
-  "description": "This talk covers \"Mechanisms for Generalized Machine Learning Across Tasks and Environments\", including a KL-control technique for combining reinforcement and supervised learning, and describes how to apply it to the problem of drug discovery."
+  "description": "This talk focuses on how social learning from other agents can lead to learning more complex behaviors and enhance generalization. I discuss recent work on emergent social learning and PsiPhi-Learning in detail."
 }
 </script>
 
@@ -370,11 +364,11 @@
 
 
 
-  <title>Broad Institute Models, Inference, and Algorithms (MIA) Seminar | Natasha Jaques</title>
+  <title>MILA RL Sofa | Natasha Jaques</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="8feedb0aa386d8817f46402d908d768a" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ad8819a041171285fa18720e284eed51" >
 
   
   
@@ -695,18 +689,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
-  
-  
-<div class="article-container pt-3">
-  <h1>Broad Institute Models, Inference, and Algorithms (MIA) Seminar</h1>
-
-  
-
   
     
+  
+
+
+<div class="article-container pt-3">
+  <h1>MILA RL Sofa</h1>
+
+  
+
+  
 
 
 <div class="article-metadata">
@@ -732,7 +734,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -772,7 +774,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=Vx5Daxa0Yts" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://bluejeans.com/s/mw4d0UxFM_J/" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -782,7 +784,14 @@
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 412px;">
+  <div style="position: relative">
+    <img src="/talk/mila-rl-sofa/featured_huea03fa0c9747c3b8efd220aac3b6f6c6_1299935_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -791,7 +800,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">This talk covers &ldquo;Mechanisms for Generalized Machine Learning Across Tasks and Environments&rdquo;. In addition to personalized multi-task learning for healthcare, it introduces a KL-control technique for combining reinforcement and supervised learning, and describes how to apply it to the problem of drug discovery.</p>
+      <p class="pub-abstract">This talk focuses on how social learning from other agents can lead to learning more complex behaviors and enhance generalization. I discuss recent work on emergent social learning and PsiPhi-Learning in detail.</p>
     
 
     <div class="row">
@@ -800,7 +809,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            2019 
+            2021 
           </div>
         </div>
       </div>
@@ -815,8 +824,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
-            <a href="https://www.samsung.com/us/ssic/forum/deep-learning/" target="_blank" rel="noopener">
-            Models, Inference, and Algorithms (MIA) Seminar
+            <a href="https://bluejeans.com/s/mw4d0UxFM_J/" target="_blank" rel="noopener">
+            RL Sofa
             </a>
           </div>
         </div>
@@ -832,10 +841,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Broad Institute</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">415 Main St, Cambridge, MA 02142</div>
+          <div class="col-12 col-md-9">Montreal Institute of Learning Algorithms (MILA)</div>
           
         </div>
       </div>
@@ -848,10 +854,6 @@
 
     <div class="article-style">
       
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Vx5Daxa0Yts" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
 
 
 

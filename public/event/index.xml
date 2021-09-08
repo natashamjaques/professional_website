@@ -5,12 +5,23 @@
     <link>https://natashamjaques.github.io/event/</link>
       <atom:link href="https://natashamjaques.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 09 Jul 2021 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://natashamjaques.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>MILA RL Sofa</title>
+      <link>https://natashamjaques.github.io/talk/mila-rl-sofa/</link>
+      <pubDate>Fri, 09 Jul 2021 13:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/talk/mila-rl-sofa/</guid>
+      <description>
+
+
+</description>
+    </item>
     
     <item>
       <title>Re-Work Women in AI Podcast</title>
