@@ -4,9 +4,12 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: News
-    url: '#news'
+  - name: Awards
+    url: '#awards'
     weight: 5
+  - name: Press
+    url: '#press'
+    weight: 7
   - name: Featured
     url: '#featured'
     weight: 10
