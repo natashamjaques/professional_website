@@ -9,11 +9,13 @@ superuser: true
 # role: Senior Research Scientist, Visiting Postdoctoral Scholar
 
 # Organizations/Affiliations to show in About widget
-organizations:
-- name: Senior Research Scientist, Google Brain
+organizations: 
+- name: Senior Research Scientist
   url: https://research.google/people/NatashaJaques/
-- name: Visiting Postdoctoral Scholar, UC Berkeley
+- name: Google Brain
+- name: Visiting Postdoctoral Scholar
   url: http://rail.eecs.berkeley.edu/people.html
+- name: UC Berkeley
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research is focused on Social Reinforcement Learning--developing algorithms that use insights from social learning to improve AI agents' learning, generalization, coordination, and human-AI interaction.
