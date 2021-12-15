@@ -6,7 +6,7 @@ title: Natasha Jaques
 superuser: true
 
 # Role/position/tagline
-# role: Research Scientist, Postdoctoral Fellow
+# role: Senior Research Scientist, Visiting Postdoctoral Scholar
 
 # Organizations/Affiliations to show in About widget
 organizations:
