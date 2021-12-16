@@ -3,7 +3,7 @@ title: "Personality, Attitudes, and Bonding in Conversations"
 authors:
 - admin
 - Y. K. Kim
-- R. Picard
+- \& Picard R. Picard R
 date: "2016-01-01T00:00:00Z"
 doi: ""
 

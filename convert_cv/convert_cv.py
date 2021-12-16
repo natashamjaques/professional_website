@@ -30,9 +30,10 @@ import os
 import sys
 from datetime import datetime
 
-CV_PATH = '/Users/natasha/Developer/professional_website/convert_cv/cv.tex'
-PUB_PATH = '/Users/natasha/Developer/professional_website/content/publication'
-MD_PATH = '/Users/natasha/Developer/professional_website/convert_cv/empty_pub.md'
+BASE_PATH = '/usr/local/google/home/natashajaques/developer/professional_website'  #/usr/local/google/home/natashajaques/developer/professional_website
+CV_PATH = os.path.join(BASE_PATH, 'convert_cv/cv.tex')
+PUB_PATH = os.path.join(BASE_PATH, 'content/publication')
+MD_PATH = os.path.join(BASE_PATH, 'convert_cv/empty_pub.md')
 TRUNCATE_TITLES = 70
 DATE_FORMAT = '"%Y-%m-%dT%H:%M:%SZ"'
 
@@ -47,7 +48,8 @@ ALREADY_ADDED = ["Emergent Social Learning via Multi-agent Reinforcement Learnin
 				 "Personalized Multitask Learning for Predicting Tomorrow's Mood, Stress, and Health",
 				 "Predicting students' happiness from physiology, phone, mobility, and behavioral data",
 				 "Interactive Musical Improvisation with Magenta",
-				 "Predicting Affect in an Intelligent Tutoring System"]
+				 "Predicting Affect in an Intelligent Tutoring System", 
+				 "Environment Generation for Zero-Shot Compositional Reinforcement Learning"]
 
 
 class Author:

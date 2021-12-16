@@ -39,7 +39,7 @@ featured: false
 links:
 - name: Extended paper
   url: https://drive.google.com/file/d/15Pimm1FwwxSPPX04KTr84ilVHJvVExPd/view?usp=sharing
-url_pdf: https://drive.google.com/file/d/168_D8T70JbQsrhTU0_6ZuFUyD14NbY1-/view?usp=sharing
+url_pdf: https://drive.google.com/file/d/15Pimm1FwwxSPPX04KTr84ilVHJvVExPd/view?usp=sharing
 url_code: ''
 url_dataset: ''
 url_poster: ''
