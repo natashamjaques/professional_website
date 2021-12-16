@@ -5,12 +5,20 @@
     <link>https://natashamjaques.github.io/author/natasha-jaques/</link>
       <atom:link href="https://natashamjaques.github.io/author/natasha-jaques/index.xml" rel="self" type="application/rss+xml" />
     <description>Natasha Jaques</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://natashamjaques.github.io/author/natasha-jaques/avatar_hu535661bce2c742bf7a0f6a055ac0b6d1_1827718_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Natasha Jaques</title>
       <link>https://natashamjaques.github.io/author/natasha-jaques/</link>
     </image>
+    
+    <item>
+      <title>Less is More: Generating Grounded Navigation Instructions from Landmarks</title>
+      <link>https://natashamjaques.github.io/publication/less-is-more-generating-grounded-navigation-instructions-from-landmark/</link>
+      <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/less-is-more-generating-grounded-navigation-instructions-from-landmark/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Explore and Control with Adversarial Surprise</title>

@@ -5,12 +5,28 @@
     <link>https://natashamjaques.github.io/publication-type/1/</link>
       <atom:link href="https://natashamjaques.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 29 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>https://natashamjaques.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Less is More: Generating Grounded Navigation Instructions from Landmarks</title>
+      <link>https://natashamjaques.github.io/publication/less-is-more-generating-grounded-navigation-instructions-from-landmark/</link>
+      <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/less-is-more-generating-grounded-navigation-instructions-from-landmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explore and Control with Adversarial Surprise</title>
+      <link>https://natashamjaques.github.io/publication/explore-and-control-with-adversarial-surprise/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/explore-and-control-with-adversarial-surprise/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Environment Generation for Zero-Shot Compositional Reinforcement Learning</title>
@@ -89,6 +105,14 @@
       <link>https://natashamjaques.github.io/publication/social-influence-as-intrinsic-motivation-for-multiagent-deep-reinforce/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://natashamjaques.github.io/publication/social-influence-as-intrinsic-motivation-for-multiagent-deep-reinforce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tackling Climate Change with Machine Learning</title>
+      <link>https://natashamjaques.github.io/publication/tackling-climate-change-with-machine-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/tackling-climate-change-with-machine-learning/</guid>
       <description></description>
     </item>
     
