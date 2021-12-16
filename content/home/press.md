@@ -40,6 +40,7 @@ design:
   #   4 = Citation (publication only)
   view: 2 -->
 ---
+- [Degrees Magazine](https://www.degreesmagazine.ca/the-skys-the-limit/2021/11/19/). Cataldo, S. (2021, November 19). *The sky's the limit.*
 - [Science](https://www.sciencemag.org/news/2021/01/who-needs-teacher-artificial-intelligence-designs-lesson-plans-itself). Hutson, M. (2021, January 19). *Who needs a teacher? Artificial intelligence designs lesson plans for itself.*
 - [IEEE Spectrum](https://spectrum.ieee.org/tech-talk/computing/software/deepmind-teaches-ai-teamwork). Hutson, M. (2019, June 17). *DeepMind Teaches AI Teamwork.*
 - [MIT Technology Review](https://www.technologyreview.com/s/603003/ai-songsmith-cranks-out-surprisingly-catchy-tunes/). Hao, K. (2019, June 20). *Here are 10 ways AI could help
