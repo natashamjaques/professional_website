@@ -21,7 +21,7 @@ author_notes:
 - ""
 - ""
 - ""
-- "Equal contribution"
+- ""
 - ""
 - ""
 - ""
