@@ -40,7 +40,7 @@ design:
   #   4 = Citation (publication only)
   view: 2 -->
 ---
-- 2021 [Outstanding PhD Dissertation](https://aaac.world/aaac-outstanding-phd-dissertation-award-2020/) from the international [Association for the Advancement of Affective Computing](https://aaac.world/)
+- 2021 [Outstanding PhD Dissertation](https://www.media.mit.edu/posts/natasha-jaques-best-phd-award/?fbclid=IwAR0dT73P4HeNolVWSFRwYAxrKaPl3pDoDw3CItIUE-5rlB5437y0C7-fYvI) from the international [Association for the Advancement of Affective Computing](https://aaac.world/)
 - 2021 [Best of Collection](./publication/personalized-multitask-learning-for-predicting-tomorrows-mood-stress-a/) in the journal IEEE Transactions on Affective Computing ([impact factor: 10.5](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369))
 - 2021 [C3.ai Digital Transformation Institute AI for Energy and Climate Security Awards](https://c3dti.ai/c3-announces-energy-climate-awards/) funded our grant proposal, "Offline Reinforcement Learning for Energy-Efficient Power Grids"
 - 2020 [Best Paper](./publication/learning-social-learning) at the NeurIPS Workshop on Cooperative AI 

@@ -42,6 +42,8 @@ featured: false
 links:
 - name: Thesis Defense
   url: https://www.media.mit.edu/events/natasha-jacques-dissertation-defense/
+- name: CV News write-up
+  url: https://www.rsipvision.com/ComputerVisionNews-2021November/42/
 url_pdf: https://www.media.mit.edu/publications/social-and-affective-machine-learning/
 url_code: ''
 url_dataset: ''
