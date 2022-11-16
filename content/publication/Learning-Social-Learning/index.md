@@ -1,11 +1,11 @@
 ---
-title: "Learning Social Learning"
+title: "Emergent Social Learning via Multi-agent Reinforcement Learning"
 authors:
 - Kamal Ndousse
 - Douglas Eck
 - Sergey Levine
 - admin
-date: "2021-05-08T00:00:00Z"
+date: "2021-07-18T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
