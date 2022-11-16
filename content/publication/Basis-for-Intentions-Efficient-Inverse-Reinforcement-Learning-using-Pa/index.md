@@ -4,7 +4,7 @@ authors:
 - M. Abdulhai
 - admin
 - S. Levine
-date: "2022-01-01T00:00:00Z"
+date: "2022-07-01T00:00:00Z"
 doi: ""
 
 author_notes:
@@ -13,31 +13,31 @@ author_notes:
 - ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-01-01T00:00:00Z"
+publishDate: "2022-07-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Preprint* 
 publication_short: In *Preprint* 
 
-abstract: 
+abstract: "This paper addresses the problem of inverse reinforcement learning (IRL) – inferring the reward function of an agent from observing its behavior. IRL can provide a generalizable and compact representation for apprenticeship learning, and enable accurately inferring the preferences of a human in order to assist them. However, effective IRL is challenging, because many reward functions can be compatible with an observed behavior. We focus on how prior reinforcement learning (RL) experience can be leveraged to make learning these preferences faster and more efficient. We propose the IRL algorithm BASIS (Behavior Acquisition through Successor-feature Intention inference from Samples), which leverages multi-task RL pre-training and successor features to allow an agent to build a strong basis for intentions that spans the space of possible goals in a given domain. When exposed to just a few expert demonstrations optimizing a novel goal, the agent uses its basis to quickly and effectively infer the reward function. Our experiments reveal that our method is highly effective at inferring and optimizing demonstrated reward functions, accurately inferring reward functions from less than 100 trajectories."
 # Summary. An optional shortened abstract.
-summary: ''
+summary: "Using inverse reinforcement learning to infer human preferences is challenging, because it is an underspecified problem. We use multi-task RL pre-training and successor features to learn a **basis** for intentions that enables rapidly inferring an expert's reward function in only 100 samples."
 
 tags:
 featured: false
 
 links:
 url_pdf: https://arxiv.org/abs/2208.04919
-url_code: ''
+url_code: https://github.com/abdulhaim/basis-irl
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: https://sites.google.com/view/basis-irl
 url_slides: ''
 url_source: ''
 url_video: ''
