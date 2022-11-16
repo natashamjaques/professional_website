@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-"""Script to convert CV contents into publications in hugo format.
+r"""Script to convert CV contents into publications in hugo format.
 
 Note the paper entry is defined in Latex as follows:
  \newcommand{\PaperEntry}[6]{
@@ -30,7 +30,7 @@ import os
 import sys
 from datetime import datetime
 
-BASE_PATH = '/usr/local/google/home/natashajaques/developer/professional_website'  #/usr/local/google/home/natashajaques/developer/professional_website
+BASE_PATH = '/Users/natashajaques/Developer/professional_website'  #/usr/local/google/home/natashajaques/developer/professional_website
 CV_PATH = os.path.join(BASE_PATH, 'convert_cv/cv.tex')
 PUB_PATH = os.path.join(BASE_PATH, 'content/publication')
 MD_PATH = os.path.join(BASE_PATH, 'convert_cv/empty_pub.md')
@@ -141,7 +141,7 @@ class Publication:
 					print("Eek! Not sure if it's okay to overwrite existing url for", self.title)
 					print("Existing URL:", existing_url)
 					print("CV URL:", self.url)
-					response = raw_input('Overwrite (o), keep existing (e) or quit (default)?')
+					response = input('Overwrite (o), keep existing (e) or quit (default)?')
 					if response == 'o':
 						md_lines[i] = 'url_pdf: ' + self.url +  '\n'
 					elif response == 'e':
@@ -261,7 +261,7 @@ def parse_paper_entry(line):
 	pub = Publication(title, authors, url, venue, location, year)
 	return pub
 
-def remove_format(line, cmd='\underline', replace_with=''):
+def remove_format(line, cmd=r'\underline', replace_with=''):
 	"""Returns true if an underline was removed"""
 	underline_i = line.find(cmd)
 	if underline_i == -1:

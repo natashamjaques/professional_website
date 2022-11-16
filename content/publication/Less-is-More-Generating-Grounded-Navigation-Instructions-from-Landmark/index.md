@@ -11,7 +11,7 @@ authors:
 - A. Waters
 - J. Baldridge
 - P. Anderson
-date: "2021-11-25T00:00:00Z"
+date: "2022-11-25T00:00:00Z"
 doi: ""
 
 author_notes:
@@ -27,7 +27,7 @@ author_notes:
 - ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-11-25T00:00:00Z"
+publishDate: "2022-11-25T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -36,8 +36,8 @@ publishDate: "2021-11-25T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Preprint* 
-publication_short: In *Preprint* 
+publication: In *Computer Vision and Pattern Recognition (CVPR)* 
+publication_short: In *Computer Vision and Pattern Recognition (CVPR)* 
 
 abstract: We study the automatic generation of navigation instructions from 360-degree images captured on indoor routes. Existing generators suffer from poor visual grounding, causing them to rely on language priors and hallucinate objects. Our MARKY-MT5 system addresses this by focusing on visual landmarks; it comprises a first stage landmark detector and a second stage generator -- a multimodal, multilingual, multitask encoder-decoder. To train it, we bootstrap grounded landmark annotations on top of the Room-across-Room (RxR) dataset. Using text parsers, weak supervision from RxR's pose traces, and a multilingual image-text encoder trained on 1.8b images, we identify 1.1m English, Hindi and Telugu landmark descriptions and ground them to specific regions in panoramas. On Room-to-Room, human wayfinders obtain success rates (SR) of 71% following MARKY-MT5's instructions, just shy of their 75% SR following human instructions -- and well above SRs with other generators. Evaluations on RxR's longer, diverse paths obtain 61-64% SRs on three languages. Generating such high-quality navigation instructions in novel environments is a step towards conversational navigation tools and could facilitate larger-scale training of instruction-following agents.
 # Summary. An optional shortened abstract.
