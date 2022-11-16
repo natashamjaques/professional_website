@@ -2,9 +2,9 @@
 title: "Concept-based Understanding of Emergent Multi-Agent Behavior"
 authors:
 - N. Grupen
-- S. Omidshafiei
 - admin
 - B. Kim
+- S. Omidshafiei
 date: "2022-12-31T00:00:00Z"
 doi: ""
 
