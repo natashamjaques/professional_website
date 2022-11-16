@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-""" Script to convert CV contents into publications in hugo format.
+"""Script to convert CV contents into publications in hugo format.
 
 Note the paper entry is defined in Latex as follows:
  \newcommand{\PaperEntry}[6]{
