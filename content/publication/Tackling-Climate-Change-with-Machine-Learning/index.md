@@ -82,6 +82,8 @@ links:
   url: https://www.technologyreview.com/2019/06/20/134864/ai-climate-change-machine-learning/
 - name: National Geographic article
   url: https://www.nationalgeographic.com/environment/article/artificial-intelligence-climate-change
+- name: ACM Computing Surveys
+  url: https://dl.acm.org/doi/10.1145/3485128
 url_pdf: https://arxiv.org/abs/1906.05433
 url_code: ''
 url_dataset: ''

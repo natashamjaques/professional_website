@@ -47,7 +47,7 @@ featured: false
 
 links:
 url_pdf: https://papers.nips.cc/paper/2021/file/218344619d8fb95d504ccfa11804073f-Paper.pdf
-url_code: ''
+url_code: https://github.com/google-research/google-research/tree/master/compositional_rl
 url_dataset: ''
 url_poster: ''
 url_project: ''
