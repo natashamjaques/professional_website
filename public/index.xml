@@ -5,9 +5,9 @@
     <link>https://natashamjaques.github.io/</link>
       <atom:link href="https://natashamjaques.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Natasha Jaques</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
+      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_3.png</url>
       <title>Natasha Jaques</title>
       <link>https://natashamjaques.github.io/</link>
     </image>
@@ -108,10 +108,105 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
+      <title>Concept-based Understanding of Emergent Multi-Agent Behavior</title>
+      <link>https://natashamjaques.github.io/publication/conceptbased-understanding-of-emergent-multiagent-behavior/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/conceptbased-understanding-of-emergent-multiagent-behavior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moral Foundations of Large Language Models</title>
+      <link>https://natashamjaques.github.io/publication/moral-foundations-of-large-language-models/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/moral-foundations-of-large-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In the ZONE: Measuring difficulty and  progression in curriculum generation</title>
+      <link>https://natashamjaques.github.io/publication/in-the-zone-measuring-difficulty-and--progression-in-curriculum-genera/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/in-the-zone-measuring-difficulty-and--progression-in-curriculum-genera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent Reinforcement Learning for Hardware Architecture Search: A Case Study on Domain-Specific DRAM Memory Controller Design</title>
+      <link>https://natashamjaques.github.io/publication/multiagent-reinforcement-learning-for-hardware-architecture-search-a-c/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/multiagent-reinforcement-learning-for-hardware-architecture-search-a-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basis for Intentions: Efficient Inverse Reinforcement Learning using Past Experience</title>
+      <link>https://natashamjaques.github.io/publication/basis-for-intentions-efficient-inverse-reinforcement-learning-using-pa/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/basis-for-intentions-efficient-inverse-reinforcement-learning-using-pa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Learning Agents workshop at AAMAS</title>
+      <link>https://natashamjaques.github.io/talk/adaptive-learning-agents-workshop-at-aamas/</link>
+      <pubDate>Mon, 09 May 2022 13:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/talk/adaptive-learning-agents-workshop-at-aamas/</guid>
+      <description>
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0fyCDafLrfU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+</description>
+    </item>
+    
+    <item>
       <title>Less is More: Generating Grounded Navigation Instructions from Landmarks</title>
       <link>https://natashamjaques.github.io/publication/less-is-more-generating-grounded-navigation-instructions-from-landmark/</link>
-      <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://natashamjaques.github.io/publication/less-is-more-generating-grounded-navigation-instructions-from-landmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Institute for Pure and Applied Mathematics (IPAM) Mathematics of Intelligence workshop</title>
+      <link>https://natashamjaques.github.io/talk/institute-for-pure-and-applied-mathematics-ipam-mathematics-of-intelligence-workshop/</link>
+      <pubDate>Sat, 19 Feb 2022 13:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/talk/institute-for-pure-and-applied-mathematics-ipam-mathematics-of-intelligence-workshop/</guid>
+      <description>
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rjLT0NkCp9I&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Wearables: an R package with accompanying Shiny application for signal analysis of a wearable device targeted at clinicians and researchers</title>
+      <link>https://natashamjaques.github.io/publication/wearables-an-r-package-with-accompanying-shiny-application-for-signal-/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/wearables-an-r-package-with-accompanying-shiny-application-for-signal-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NeurIPS Political Economy of Reinforcement Learning Panel</title>
+      <link>https://natashamjaques.github.io/talk/neurips-political-economy-of-reinforcement-learning-panel/</link>
+      <pubDate>Tue, 14 Dec 2021 00:07:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/talk/neurips-political-economy-of-reinforcement-learning-panel/</guid>
+      <description>
+</description>
+    </item>
+    
+    <item>
+      <title>Environment Generation for Zero-Shot Compositional Reinforcement Learning</title>
+      <link>https://natashamjaques.github.io/publication/environment-generation-for-zero-shot-compositional-reinforcement-learn/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/environment-generation-for-zero-shot-compositional-reinforcement-learn/</guid>
       <description></description>
     </item>
     
@@ -129,14 +224,19 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
-      <title>MILA RL Sofa</title>
-      <link>https://natashamjaques.github.io/talk/mila-rl-sofa/</link>
-      <pubDate>Fri, 09 Jul 2021 13:00:00 +0000</pubDate>
-      <guid>https://natashamjaques.github.io/talk/mila-rl-sofa/</guid>
-      <description>
-
-
-</description>
+      <title>PsiPhi-Learning: Reinforcement Learning with Demonstrations using Successor Features and Inverse Temporal Difference Learning</title>
+      <link>https://natashamjaques.github.io/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergent Social Learning via Multi-agent Reinforcement Learning</title>
+      <link>https://natashamjaques.github.io/publication/learning-social-learning/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/learning-social-learning/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -148,27 +248,18 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
-      <title>Environment Generation for Zero-Shot Compositional Reinforcement Learning</title>
-      <link>https://natashamjaques.github.io/publication/environment-generation-for-zero-shot-compositional-reinforcement-learn/</link>
-      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://natashamjaques.github.io/publication/environment-generation-for-zero-shot-compositional-reinforcement-learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Social Learning</title>
-      <link>https://natashamjaques.github.io/publication/learning-social-learning/</link>
-      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://natashamjaques.github.io/publication/learning-social-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PsiPhi-Learning: Reinforcement Learning with Demonstrations using Successor Features and Inverse Temporal Difference Learning</title>
-      <link>https://natashamjaques.github.io/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/</link>
-      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://natashamjaques.github.io/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/</guid>
-      <description></description>
+      <title>Jay Shah Podcast</title>
+      <link>https://natashamjaques.github.io/talk/jay-shah-podcast/</link>
+      <pubDate>Fri, 05 Mar 2021 13:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/talk/jay-shah-podcast/</guid>
+      <description>
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8XpCnmvq49s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+</description>
     </item>
     
     <item>
@@ -330,15 +421,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;

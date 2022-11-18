@@ -5,18 +5,90 @@
     <link>https://natashamjaques.github.io/publication/</link>
       <atom:link href="https://natashamjaques.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_2.png</url>
+      <url>https://natashamjaques.github.io/media/icon_hua64261c49917fe48d46061d344453b21_144873_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://natashamjaques.github.io/publication/</link>
     </image>
     
     <item>
+      <title>Concept-based Understanding of Emergent Multi-Agent Behavior</title>
+      <link>https://natashamjaques.github.io/publication/conceptbased-understanding-of-emergent-multiagent-behavior/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/conceptbased-understanding-of-emergent-multiagent-behavior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moral Foundations of Large Language Models</title>
+      <link>https://natashamjaques.github.io/publication/moral-foundations-of-large-language-models/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/moral-foundations-of-large-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In the ZONE: Measuring difficulty and  progression in curriculum generation</title>
+      <link>https://natashamjaques.github.io/publication/in-the-zone-measuring-difficulty-and--progression-in-curriculum-genera/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/in-the-zone-measuring-difficulty-and--progression-in-curriculum-genera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent Reinforcement Learning for Hardware Architecture Search: A Case Study on Domain-Specific DRAM Memory Controller Design</title>
+      <link>https://natashamjaques.github.io/publication/multiagent-reinforcement-learning-for-hardware-architecture-search-a-c/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/multiagent-reinforcement-learning-for-hardware-architecture-search-a-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basis for Intentions: Efficient Inverse Reinforcement Learning using Past Experience</title>
+      <link>https://natashamjaques.github.io/publication/basis-for-intentions-efficient-inverse-reinforcement-learning-using-pa/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/basis-for-intentions-efficient-inverse-reinforcement-learning-using-pa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Less is More: Generating Grounded Navigation Instructions from Landmarks</title>
       <link>https://natashamjaques.github.io/publication/less-is-more-generating-grounded-navigation-instructions-from-landmark/</link>
-      <pubDate>Thu, 25 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://natashamjaques.github.io/publication/less-is-more-generating-grounded-navigation-instructions-from-landmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wearables: an R package with accompanying Shiny application for signal analysis of a wearable device targeted at clinicians and researchers</title>
+      <link>https://natashamjaques.github.io/publication/wearables-an-r-package-with-accompanying-shiny-application-for-signal-/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/wearables-an-r-package-with-accompanying-shiny-application-for-signal-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Environment Generation for Zero-Shot Compositional Reinforcement Learning</title>
+      <link>https://natashamjaques.github.io/publication/environment-generation-for-zero-shot-compositional-reinforcement-learn/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/environment-generation-for-zero-shot-compositional-reinforcement-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PsiPhi-Learning: Reinforcement Learning with Demonstrations using Successor Features and Inverse Temporal Difference Learning</title>
+      <link>https://natashamjaques.github.io/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergent Social Learning via Multi-agent Reinforcement Learning</title>
+      <link>https://natashamjaques.github.io/publication/learning-social-learning/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://natashamjaques.github.io/publication/learning-social-learning/</guid>
       <description></description>
     </item>
     
@@ -25,30 +97,6 @@
       <link>https://natashamjaques.github.io/publication/explore-and-control-with-adversarial-surprise/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       <guid>https://natashamjaques.github.io/publication/explore-and-control-with-adversarial-surprise/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Environment Generation for Zero-Shot Compositional Reinforcement Learning</title>
-      <link>https://natashamjaques.github.io/publication/environment-generation-for-zero-shot-compositional-reinforcement-learn/</link>
-      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://natashamjaques.github.io/publication/environment-generation-for-zero-shot-compositional-reinforcement-learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Social Learning</title>
-      <link>https://natashamjaques.github.io/publication/learning-social-learning/</link>
-      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://natashamjaques.github.io/publication/learning-social-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PsiPhi-Learning: Reinforcement Learning with Demonstrations using Successor Features and Inverse Temporal Difference Learning</title>
-      <link>https://natashamjaques.github.io/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/</link>
-      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://natashamjaques.github.io/publication/psiphilearning-reinforcement-learning-with-demonstrations-using-succes/</guid>
       <description></description>
     </item>
     
