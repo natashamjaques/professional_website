@@ -34,6 +34,11 @@ abstract: "A common strategy in curriculum generation for reinforcement learning
 summary: "Past work on curriculum generation in RL has focused on training a teacher agent to generate tasks for a student agent that accelerate student learning and improve generalization. In this work, we create a mathematical framework that formalizes these concepts and subsumes prior work, taking inspiration from the psychological concept of the Zone of Proximal Development. We propose two new techniques based on rejection sampling and maximizing the student's gradient norm that improve curriculum learning."
 
 tags:
+- Emergent Complexity
+- Multi-Agent
+- Generalization
+- Deep Learning
+- Reinforcement Learning
 featured: false
 
 links:

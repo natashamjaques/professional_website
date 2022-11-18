@@ -38,6 +38,10 @@ abstract: "Microprocessor architects are increasingly resorting to domain-specif
 summary: "Reinforement Learning can potentially be a powerful tool for solving complex combinatorial optimization problems, such as microprocessor desgin. Here, we show that a multi-agent RL approach outperforms past work using single agent RL, since the problem can easily be decomposed into designing independent sub-systems."
 
 tags:
+- Multi-Agent
+- Deep Learning
+- Reinforcement Learning
+- Systems
 featured: false
 
 links:

@@ -30,6 +30,12 @@ abstract: "This paper addresses the problem of inverse reinforcement learning (I
 summary: "Using inverse reinforcement learning to infer human preferences is challenging, because it is an underspecified problem. We use multi-task RL pre-training and successor features to learn a strong prior over the space of reasonable goals in an environment---which we call a *basis*---that enables rapidly inferring an expert's reward function in only 100 samples."
 
 tags:
+- Multi-Agent
+- Deep Learning
+- Reinforcement Learning
+- Human-AI Interaction
+- Social Learning
+- Inverse Reinforcement Learning
 featured: false
 
 links:

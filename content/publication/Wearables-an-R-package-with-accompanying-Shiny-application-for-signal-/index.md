@@ -42,6 +42,11 @@ abstract: "Physiological signals (e.g., heart rate, skin conductance) that were 
 summary: "Physiological signals like heart rate and skin conductance collected from wearable devices open up a range of interesting research for clinicians and psychologists, including studying physiological reactivity to daily events and stressors. We introduce a new R package and application for analyzing wearable physiological data which enables large scale processing, and ease of use in gaining insight into this data."
 
 tags:
+- Affective Computing
+- Physiology
+- Sensors
+- Machine Learning
+- Electrodermal Activity
 featured: false
 
 links:

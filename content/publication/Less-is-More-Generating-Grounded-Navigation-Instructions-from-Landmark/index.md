@@ -48,6 +48,7 @@ tags:
 - Communication and Language
 - Deep Learning
 - Machine Learning
+- Embodied AI
 featured: false
 
 links:
