@@ -33,6 +33,10 @@ abstract: "Moral foundations theory is a tool developed by psychologists which d
 summary: "Moral Foundations theory decomposes human moral reasoning into five factors, which vary reliably across different human populations and political affiliations. We use moral foundations to analyze large language models like GPT-3 to determine what, if any, consistent moral values it brings to conversations, whether these can be deliberately manipulated, and whether holding a particular moral stance affects downstream tasks."
 
 tags:
+- Reinforcement Learning
+- Communication and Language
+- Deep Learning
+- Responsible AI
 featured: false
 
 links:

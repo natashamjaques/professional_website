@@ -32,6 +32,11 @@ abstract: "This work studies concept-based interpretability in the context of mu
 summary: "Interpreting whether multi-agent reinforcement learning (MARL) agents have successfully learned to coordinate with each other, versus finding some other way to exploit the reward function, is a longstanding problem. We develop a novel interpretability method for MARL based on concept bottlenecks, which enables detecting which agents are truly coordinating, which environments require coordination, and identifying lazy agents."
 
 tags:
+- Cooperation
+- Multi-Agent
+- Reinforcement Learning
+- Deep Learning
+- Interpretability
 featured: false
 
 links:
