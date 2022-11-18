@@ -4,7 +4,7 @@ title: Conference on Robot Learning (CoRL) Tutorial
 event: CoRL Tutorial
 event_url: https://youtu.be/5KjpZS4_RBs?t=27626
 
-location: Virtual
+location: London, UK
 <!-- address:
   street: 450 Serra Mall
   city: Stanford
